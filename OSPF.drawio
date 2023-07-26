@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T14:46:25.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8Y23JQNPCUFSsErYK9ff" version="21.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-26T14:57:49.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ziH7cg8OEv7KGEiRQu4S" version="21.6.5" type="github" pages="2">
   <diagram id="WRSiLYMKdiKQFvnUjdA-" name="OSPF DRとBDR">
-    <mxGraphModel dx="714" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="712" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="OSPF" id="PKhCmqumJbryl44LMtBW">
-    <mxGraphModel dx="714" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,6 +107,9 @@
         </mxCell>
         <mxCell id="Y9F1AMNFRK9zgY9ZF2rL-25" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Area0&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1205.5" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBV7m63TErHUj1gUfIkC-2" value="DRやBDRが頻繁に変更されるのはネットワークの安定性に欠けるため、DRとBDRが選出された後でDRよりもプライオリティの高いルータが追加されたとしても、DRとBDRの再選出は行われません。" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="700" width="650" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
