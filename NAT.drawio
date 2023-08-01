@@ -1,17 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T13:54:59.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="aqhEizeAkP4SYotXueBX" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T13:53:57.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="uX-jpuSeO6vNVPgdb7oh" version="21.6.5" type="github">
   <diagram name="ページ1" id="11hUHMy2Wvmy6h9iXee_">
-    <mxGraphModel dx="1174" dy="978" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-7" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="334" y="89" width="279" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-6" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="26" y="89" width="305" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="6t2KT0S24o-J1j0MJN2Q-1" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
           <mxGeometry x="249" y="121" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="6t2KT0S24o-J1j0MJN2Q-2" target="6t2KT0S24o-J1j0MJN2Q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6t2KT0S24o-J1j0MJN2Q-2" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="712" y="118" width="80" height="80" as="geometry" />
+          <mxGeometry x="531" y="121" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6t2KT0S24o-J1j0MJN2Q-3" target="6t2KT0S24o-J1j0MJN2Q-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6t2KT0S24o-J1j0MJN2Q-3" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l2_switch;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
-          <mxGeometry x="31" y="133" width="50" height="50" as="geometry" />
+          <mxGeometry x="29" y="136" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-8" value="グローバル" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="437" y="224" width="73" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-9" value="ローカル" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="220" width="62" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
