@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T11:45:29.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="I1vNz9iSUrk3Qu2bG0EN" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T22:37:03.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="boE0t3KlzX7Pt9Lv044p" version="21.6.5" type="github">
   <diagram name="ページ1" id="11hUHMy2Wvmy6h9iXee_">
-    <mxGraphModel dx="1177" dy="990" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="712" dy="978" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,6 +33,21 @@
         </mxCell>
         <mxCell id="6t2KT0S24o-J1j0MJN2Q-11" value="ip nat insaide source static 192.168.1.1 100.1.1.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="33" y="295" width="258" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-12" value="Fa4&lt;br&gt;.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="492" y="163" width="39" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-13" value="Fa4&lt;br&gt;.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="166" width="39" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-14" value="Fa0&lt;br&gt;.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="209.5" y="169" width="39" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-15" value="192.168.1.0/24" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="122" y="99" width="91" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-16" value="172.16" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="383" width="52" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
