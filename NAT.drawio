@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T13:54:05.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="MeeEVfKP6Q7TuUFTORS-" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T11:45:29.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="I1vNz9iSUrk3Qu2bG0EN" version="21.6.5" type="github">
   <diagram name="ページ1" id="11hUHMy2Wvmy6h9iXee_">
-    <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1177" dy="990" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="6t2KT0S24o-J1j0MJN2Q-9" value="ローカル" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="147.5" y="220" width="62" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6t2KT0S24o-J1j0MJN2Q-11" value="ip nat insaide source static 192.168.1.1 100.1.1.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="33" y="295" width="258" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
