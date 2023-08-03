@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T04:11:00.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GQmN-GiXBdZVYLeIFVEc" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T09:05:37.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RNG6Fp1WM9qARD7fprtS" version="21.6.5" type="github">
   <diagram name="ページ1" id="5YMvcwKHLr_hJrbheGe3">
     <mxGraphModel dx="840" dy="1165" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="614" y="155" width="124" height="71" as="geometry" />
         </mxCell>
         <mxCell id="lo2bIMTGq6hck81unSiq-3" value="Packet" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="252" y="291" width="78" height="80" as="geometry" />
+          <mxGeometry x="234" y="291" width="78" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lo2bIMTGq6hck81unSiq-4" value="Que" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="211" width="129" height="160" as="geometry" />
@@ -23,13 +23,13 @@
           <mxGeometry x="41" y="155" width="124" height="71" as="geometry" />
         </mxCell>
         <mxCell id="lo2bIMTGq6hck81unSiq-9" value="Packet" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="635" y="150.5" width="78" height="80" as="geometry" />
+          <mxGeometry x="581" y="155" width="78" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lo2bIMTGq6hck81unSiq-10" value="Packet" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="252" y="211" width="78" height="80" as="geometry" />
+          <mxGeometry x="234" y="211" width="78" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NIk1nC7qE0hckVJe5Dj5-1" value="Packet" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="74" y="146" width="78" height="80" as="geometry" />
+          <mxGeometry x="131" y="155" width="78" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
