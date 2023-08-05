@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2023-08-05T13:04:29.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="pf_TlL7qaoXMQvdTLrq0" version="21.6.5" type="github">
+  <diagram name="ページ1" id="PP09PwQhN0twtaRUhVgX">
+    <mxGraphModel dx="984" dy="978" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_2ap77zCKXi2U0UIOUTR-1" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="418" y="147" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_2ap77zCKXi2U0UIOUTR-2" value="AAA有効化&lt;br&gt;ユーザ：Ciscoとパスワード：Cisco123作成" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="319" y="248" width="310" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="_2ap77zCKXi2U0UIOUTR-3" value="&lt;div&gt;Router(config)#username Cisco pas&lt;/div&gt;&lt;div&gt;Router(config)#username Cisco password Cisco123&lt;/div&gt;&lt;div&gt;Router(config)#username Cisco se&lt;/div&gt;&lt;div&gt;Router(config)#username Cisco pas&lt;/div&gt;&lt;div&gt;Router(config)#no username Cisco password Cisco123&lt;/div&gt;&lt;div&gt;Router(config)#username Cisco pas&lt;/div&gt;&lt;div&gt;Router(config)#username Cisco password password&lt;/div&gt;&lt;div&gt;Router(config)#user&lt;/div&gt;&lt;div&gt;Router(config)#usern&lt;/div&gt;&lt;div&gt;Router(config)#username Cisco s&lt;/div&gt;&lt;div&gt;Router(config)#username Cisco secret secret&lt;/div&gt;&lt;div&gt;ERROR: Can not have both a user password and a user secret.&lt;/div&gt;&lt;div&gt;Please choose one or the other.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="319" y="313" width="357" height="199" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
