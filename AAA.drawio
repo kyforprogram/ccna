@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T13:27:07.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="EZ_BnRiDl9LjdaWicl3a" version="21.6.5" type="github">
-  <diagram name="ページ1" id="PP09PwQhN0twtaRUhVgX">
-    <mxGraphModel dx="984" dy="978" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-08-06T02:20:00.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="rRxCTUQYUxVNBVhgMbgz" version="21.6.5" type="github" pages="2">
+  <diagram name="AAA認証" id="PP09PwQhN0twtaRUhVgX">
+    <mxGraphModel dx="1100" dy="978" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,24 @@
           <mxGeometry x="39" y="974" width="426" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Uu0wt79npnzHh3u4MpTr-10" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="1144" y="31" width="80" height="80" as="geometry" />
+          <mxGeometry x="1201" y="44" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mjAupGDoTwcLQawQlSMb-1" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config)#line con 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#logi&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#login au&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#login authentication LO&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#login authentication LO&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#login authentication LO&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#login authentication LOCAL_LIST&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Router(config-line)#do sh run | s line con 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;line con 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;exec-timeout 0 0&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;logging synchronous&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;login authentication LOCAL_LIST&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;no modem enable&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="171" width="474" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="mjAupGDoTwcLQawQlSMb-2" value="コンソール接続でログインする際にローカルデータベース使用してログインする" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontColor=#FF0000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="476" width="484" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uj1H-IIrwa0S7pnmGkx6" name="CISCO暗号化と複合化">
+    <mxGraphModel dx="1100" dy="978" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6l6hhNEvBz0SWGdBXN2a-1" value="Router(config)#do sh run | s line vty&#xa;line vty 0 4&#xa;Router(config)#line vty 0 4&#xa;Router(config-line)#pas&#xa;Router(config-line)#password test123&#xa;Router(config-line)#do sh run | s line vty&#xa;line vty 0 4&#xa; password test123&#xa;&#xa;&#xa;Router(config)#service password-encryption&#xa;Router(config)#&#xa;&#xa;Router(config)#do sh run | s line vty&#xa;line vty 0 4&#xa; password 7 071B245F5A584B56&#xa;&#xa;Router(config)#key chain TEST&#xa;Router(config-keychain)#key 1&#xa;Router(config-keychain-key)#key-s&#xa;Router(config-keychain-key)#key-string 7 071B245F5A584B56&#xa;Router(config-keychain-key)#do show key ch&#xa;Router(config-keychain-key)#do show key chain&#xa;Key-chain TEST:&#xa;    key 1 -- text &quot;test123&quot;&#xa;        accept lifetime (always valid) - (always valid) [valid now]&#xa;        send lifetime (always valid) - (always valid) [valid now]&#xa;Router(config-keychain-key)#" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="146" y="77" width="521" height="685" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
