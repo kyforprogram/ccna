@@ -1,56 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T05:55:24.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Jtj7S3iQCLEaUYNQJnRO" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T08:24:26.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1gQnFV9VIyxJ3C6ygp9f" version="21.6.5" type="github">
   <diagram name="ページ1" id="oNyxpO08OiyF5CEFqEO7">
-    <mxGraphModel dx="733" dy="990" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-1" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_48_port_L2.svg;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-1" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_48_port_L2.svg;" parent="1" vertex="1">
           <mxGeometry x="101" y="148" width="174.32" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;shape=link;width=42;" edge="1" parent="1" source="rc_pYtMj7Cxb_ZD59GfT-2" target="rc_pYtMj7Cxb_ZD59GfT-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-2" value="UPSを想定" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/switch/Switch_48_port_L2.svg;" vertex="1" parent="1">
-          <mxGeometry x="581" y="148" width="187.61" height="127" as="geometry" />
-        </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-4" value="fa0/5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-4" value="fa0/5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="269" y="157" width="45" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-5" value="fa0/5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="536" y="157" width="45" height="26" as="geometry" />
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-5" value="fa0/5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="601" y="67" width="45" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-6" value="fa0/15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="533" y="233" width="51" height="26" as="geometry" />
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-6" value="fa0/15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="576" y="240" width="51" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-7" value="fa0/15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-7" value="fa0/15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="275.32" y="233" width="51" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-8" value="" style="image;html=1;image=img/lib/clip_art/networking/UPS_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="616" y="139.5" width="139" height="135" as="geometry" />
+        <mxCell id="AWA5ZTeRcKUN1QfWkaL_-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rc_pYtMj7Cxb_ZD59GfT-8" target="rc_pYtMj7Cxb_ZD59GfT-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-9" value="fa0/5&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-8" value="" style="image;html=1;image=img/lib/clip_art/networking/UPS_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="643" y="17" width="139" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-9" value="fa0/5&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="58" y="310" width="166" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-10" value="fa0/15&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-10" value="fa0/15&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="58" y="451" width="166" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-12" value="interface vlan100&lt;br&gt;ip address 10.70.190.1 255.255.255.128" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-12" value="interface vlan100&lt;br&gt;ip address 10.70.190.1 255.255.255.128" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="58" y="580" width="234" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-13" value="spanning-tree mode rapid-pvst&lt;br&gt;spanning-tree extend system-id&lt;br&gt;spanning-tree vlan 1,100 priority 4096" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-13" value="spanning-tree mode rapid-pvst&lt;br&gt;spanning-tree extend system-id&lt;br&gt;spanning-tree vlan 1,100 priority 4096" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="56.32" y="640" width="219" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-14" value="fa0/25&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-14" value="fa0/25&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="56.32" y="719" width="166" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-15" value="fa0/5&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-15" value="fa0/5&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="57.160000000000004" y="1108" width="166" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-16" value="fa0/35&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-16" value="fa0/35&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="58.84" y="840" width="166" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-19" value="&lt;div&gt;interface FastEthernet0/5&lt;/div&gt;&lt;div&gt;switchport mode access&lt;/div&gt;&lt;div&gt;switchport access vlan 100&lt;/div&gt;&lt;div&gt;logging event spanning-tree&lt;/div&gt;&lt;div&gt;logging event link-status&lt;/div&gt;&lt;div&gt;udld port aggressive&lt;/div&gt;&lt;div&gt;spanning-tree guard root&lt;/div&gt;&lt;div&gt;exit&lt;/div&gt;&lt;div&gt;interface FastEthernet0/15&lt;/div&gt;&lt;div&gt;switchport mode access&lt;/div&gt;&lt;div&gt;switchport access vlan 100&lt;/div&gt;&lt;div&gt;logging event spanning-tree&lt;/div&gt;&lt;div&gt;logging event link-status&lt;/div&gt;&lt;div&gt;udld port aggressive&lt;/div&gt;&lt;div&gt;spanning-tree guard root&lt;/div&gt;&lt;div&gt;exit&lt;/div&gt;&lt;div&gt;spanning-tree mode rapid-pvst&lt;/div&gt;&lt;div&gt;spanning-tree extend system-id&lt;/div&gt;&lt;div&gt;spanning-tree vlan 1,100 priority 4096&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="297" y="310" width="219" height="285" as="geometry" />
+        <mxCell id="rc_pYtMj7Cxb_ZD59GfT-19" value="&lt;div&gt;interface FastEthernet0/5&lt;/div&gt;&lt;div&gt;switchport mode access&lt;/div&gt;&lt;div&gt;switchport access vlan 100&lt;/div&gt;&lt;div&gt;logging event spanning-tree&lt;/div&gt;&lt;div&gt;logging event link-status&lt;/div&gt;&lt;div&gt;udld port aggressive&lt;/div&gt;&lt;div&gt;spanning-tree guard root&lt;/div&gt;&lt;div&gt;exit&lt;/div&gt;&lt;div&gt;interface FastEthernet0/15&lt;/div&gt;&lt;div&gt;switchport mode access&lt;/div&gt;&lt;div&gt;switchport access vlan 100&lt;/div&gt;&lt;div&gt;logging event spanning-tree&lt;/div&gt;&lt;div&gt;logging event link-status&lt;/div&gt;&lt;div&gt;udld port aggressive&lt;/div&gt;&lt;div&gt;spanning-tree guard root&lt;/div&gt;&lt;div&gt;exit&lt;/div&gt;&lt;div&gt;spanning-tree mode rapid-pvst&lt;/div&gt;&lt;div&gt;spanning-tree extend system-id&lt;/div&gt;&lt;div&gt;spanning-tree vlan 1,100 priority 4096&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="341" y="310" width="219" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="AWA5ZTeRcKUN1QfWkaL_-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AWA5ZTeRcKUN1QfWkaL_-1" target="rc_pYtMj7Cxb_ZD59GfT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWA5ZTeRcKUN1QfWkaL_-1" value="" style="image;html=1;image=img/lib/clip_art/networking/UPS_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="629" y="168" width="139" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
