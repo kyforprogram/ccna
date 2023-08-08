@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T12:53:23.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UQB3ByXKMI8ig_0BWtfR" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T14:22:10.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ot4QyJ2H-Yd_USc2cUpO" version="21.6.5" type="github">
   <diagram name="ページ1" id="oNyxpO08OiyF5CEFqEO7">
     <mxGraphModel dx="1478" dy="978" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,13 +26,13 @@
           <mxGeometry x="643" y="17" width="139" height="135" as="geometry" />
         </mxCell>
         <mxCell id="rc_pYtMj7Cxb_ZD59GfT-9" value="fa0/5&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="58" y="310" width="166" height="113" as="geometry" />
+          <mxGeometry x="58" y="340" width="166" height="113" as="geometry" />
         </mxCell>
         <mxCell id="rc_pYtMj7Cxb_ZD59GfT-10" value="fa0/15&lt;br&gt;vlan 100&lt;br&gt;mode accsess&lt;br&gt;logging event spanning-tree&lt;br&gt;logging event status&lt;br&gt;udld port aggressive&lt;br&gt;spaning-tree guard root" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="58" y="451" width="166" height="113" as="geometry" />
+          <mxGeometry x="58" y="465" width="166" height="113" as="geometry" />
         </mxCell>
         <mxCell id="rc_pYtMj7Cxb_ZD59GfT-12" value="interface vlan100&lt;br&gt;ip address 10.70.190.1 255.255.255.128" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="58" y="580" width="234" height="41" as="geometry" />
+          <mxGeometry x="56.32" y="293" width="234" height="41" as="geometry" />
         </mxCell>
         <mxCell id="rc_pYtMj7Cxb_ZD59GfT-13" value="spanning-tree mode rapid-pvst&lt;br&gt;spanning-tree extend system-id&lt;br&gt;spanning-tree vlan 1,100 priority 4096" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="56.32" y="640" width="219" height="55" as="geometry" />
