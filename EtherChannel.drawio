@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T03:07:12.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="pqu4DLm0RqAk9RjUg-zu" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T03:12:36.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="57NuzAn-d5qLPz4fGi5M" version="21.0.8" type="github">
   <diagram name="ページ1" id="ZSxLaV2bKc1tJ6pGvr2S">
     <mxGraphModel dx="1434" dy="2119" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,11 +33,11 @@
         <mxCell id="ucbjNHDY6Dubbsn-pcQ_-2" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
           <mxGeometry x="429" y="-1051" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-4" value="PagP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="278" y="-1096" width="47" height="26" as="geometry" />
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-4" value="PagP&lt;br&gt;Cisco" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="278" y="-1103" width="48" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-8" value="PagP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="864" y="-1098" width="47" height="26" as="geometry" />
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-8" value="LACP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="863" y="-1098" width="49" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ucbjNHDY6Dubbsn-pcQ_-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;width=17;" edge="1" parent="1" source="ucbjNHDY6Dubbsn-pcQ_-30" target="ucbjNHDY6Dubbsn-pcQ_-31">
           <mxGeometry relative="1" as="geometry" />
@@ -67,6 +67,12 @@
         </mxCell>
         <mxCell id="ucbjNHDY6Dubbsn-pcQ_-31" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
           <mxGeometry x="1015" y="-1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-32" value="active" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="758" y="-1055" width="49" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-33" value="active" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="964" y="-1053" width="49" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
