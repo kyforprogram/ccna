@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T12:41:36.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Yk6tLCAy8u6n0HqB9xjI" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T12:48:22.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sw-Ej2gEXwRjjxh8xJL_" version="21.6.8" type="github">
   <diagram name="ページ1" id="Jn8TBwAElaw94Q5TDB7D">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,6 +82,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="671.5" y="652" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oNmqE67GRk4HWS7hQrhi-41" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="oNmqE67GRk4HWS7hQrhi-40" target="oNmqE67GRk4HWS7hQrhi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNmqE67GRk4HWS7hQrhi-40" value="&lt;div&gt;Router(config-subif)#do sh run | s int&lt;/div&gt;&lt;div&gt;interface FastEthernet0&lt;/div&gt;&lt;div&gt;interface FastEthernet1&lt;/div&gt;&lt;div&gt;interface FastEthernet2&lt;/div&gt;&lt;div&gt;interface FastEthernet3&lt;/div&gt;&lt;div&gt;interface FastEthernet4&lt;/div&gt;&lt;div&gt;&amp;nbsp;no ip address&lt;/div&gt;&lt;div&gt;&amp;nbsp;shutdown&lt;/div&gt;&lt;div&gt;&amp;nbsp;duplex auto&lt;/div&gt;&lt;div&gt;&amp;nbsp;speed auto&lt;/div&gt;&lt;div&gt;interface FastEthernet4.1&lt;/div&gt;&lt;div&gt;&amp;nbsp;encapsulation dot1Q 10&lt;/div&gt;&lt;div&gt;&amp;nbsp;ip address 192.168.1.254 255.255.255.0&lt;/div&gt;&lt;div&gt;interface Vlan1&lt;/div&gt;&lt;div&gt;&amp;nbsp;no ip address&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="47" width="239" height="206" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
