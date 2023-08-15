@@ -1,78 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T03:12:36.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="57NuzAn-d5qLPz4fGi5M" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T02:24:41.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RUJ57aPED92tYdwOJc3Z" version="21.6.8" type="github">
   <diagram name="ページ1" id="ZSxLaV2bKc1tJ6pGvr2S">
-    <mxGraphModel dx="1434" dy="2119" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1914" dy="2160" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;width=17;" edge="1" parent="1" source="ucbjNHDY6Dubbsn-pcQ_-1" target="ucbjNHDY6Dubbsn-pcQ_-2">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;width=17;" parent="1" source="ucbjNHDY6Dubbsn-pcQ_-1" target="ucbjNHDY6Dubbsn-pcQ_-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-13" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ucbjNHDY6Dubbsn-pcQ_-3">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-13" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ucbjNHDY6Dubbsn-pcQ_-3" vertex="1" connectable="0">
           <mxGeometry x="-0.8557" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-15" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ucbjNHDY6Dubbsn-pcQ_-3">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-15" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ucbjNHDY6Dubbsn-pcQ_-3" vertex="1" connectable="0">
           <mxGeometry x="-0.8404" y="-11" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-16" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ucbjNHDY6Dubbsn-pcQ_-3">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-16" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ucbjNHDY6Dubbsn-pcQ_-3" vertex="1" connectable="0">
           <mxGeometry x="0.7842" y="7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-17" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ucbjNHDY6Dubbsn-pcQ_-3">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-17" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ucbjNHDY6Dubbsn-pcQ_-3" vertex="1" connectable="0">
           <mxGeometry x="0.7916" y="-14" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-1" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-1" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="99" y="-1050" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-2" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-2" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="429" y="-1051" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-4" value="PagP&lt;br&gt;Cisco" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-4" value="PagP&lt;br&gt;Cisco" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="278" y="-1103" width="48" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-8" value="LACP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-8" value="LACP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="863" y="-1098" width="49" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;width=17;" edge="1" parent="1" source="ucbjNHDY6Dubbsn-pcQ_-30" target="ucbjNHDY6Dubbsn-pcQ_-31">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;width=17;" parent="1" source="ucbjNHDY6Dubbsn-pcQ_-30" target="ucbjNHDY6Dubbsn-pcQ_-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-26" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ucbjNHDY6Dubbsn-pcQ_-25">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-26" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ucbjNHDY6Dubbsn-pcQ_-25" vertex="1" connectable="0">
           <mxGeometry x="-0.8557" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-27" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ucbjNHDY6Dubbsn-pcQ_-25">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-27" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ucbjNHDY6Dubbsn-pcQ_-25" vertex="1" connectable="0">
           <mxGeometry x="-0.8404" y="-11" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-28" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ucbjNHDY6Dubbsn-pcQ_-25">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-28" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ucbjNHDY6Dubbsn-pcQ_-25" vertex="1" connectable="0">
           <mxGeometry x="0.7842" y="7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-29" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ucbjNHDY6Dubbsn-pcQ_-25">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-29" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ucbjNHDY6Dubbsn-pcQ_-25" vertex="1" connectable="0">
           <mxGeometry x="0.7916" y="-14" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-30" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-30" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="685" y="-1049" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-31" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-31" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="1015" y="-1050" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-32" value="active" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-32" value="active" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="758" y="-1055" width="49" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-33" value="active" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ucbjNHDY6Dubbsn-pcQ_-33" value="active" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="964" y="-1053" width="49" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;width=17;" edge="1" parent="1" source="KuGozO_BsXOnd3kePy19-6" target="KuGozO_BsXOnd3kePy19-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-2" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KuGozO_BsXOnd3kePy19-1">
+          <mxGeometry x="-0.8557" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-3" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KuGozO_BsXOnd3kePy19-1">
+          <mxGeometry x="-0.8404" y="-11" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-4" value="fa0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KuGozO_BsXOnd3kePy19-1">
+          <mxGeometry x="0.7842" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-5" value="fa1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KuGozO_BsXOnd3kePy19-1">
+          <mxGeometry x="0.7916" y="-14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-6" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="1244" y="-1045" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-7" value="CISCO881-SEC-K9" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="1574" y="-1046" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-8" value="on" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1432" y="-1090" width="31" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-9" value="on" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1329" y="-1059" width="31" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KuGozO_BsXOnd3kePy19-10" value="on" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1529" y="-1055" width="31" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
