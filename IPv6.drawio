@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T14:32:32.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5mU6mQWuVX68tAI70b8i" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T04:54:53.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2godrOvrRirMXOStuvVK" version="21.6.8" type="github">
   <diagram name="ページ1" id="Emo88SEIGugIB9KTpLKM">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,6 +43,28 @@
         </mxCell>
         <mxCell id="bn5Ac9AOri2V8h4Ts5We-6" value="&lt;div&gt;R1#sh ip int b&lt;/div&gt;&lt;div&gt;Interface&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; IP-Address&amp;nbsp; &amp;nbsp; &amp;nbsp; OK? Method Status&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Protocol&lt;/div&gt;&lt;div&gt;FastEthernet0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unassigned&amp;nbsp; &amp;nbsp; &amp;nbsp; YES unset&amp;nbsp; up&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; down&lt;/div&gt;&lt;div&gt;FastEthernet1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unassigned&amp;nbsp; &amp;nbsp; &amp;nbsp; YES unset&amp;nbsp; up&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; down&lt;/div&gt;&lt;div&gt;FastEthernet2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unassigned&amp;nbsp; &amp;nbsp; &amp;nbsp; YES unset&amp;nbsp; up&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; down&lt;/div&gt;&lt;div&gt;FastEthernet3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unassigned&amp;nbsp; &amp;nbsp; &amp;nbsp; YES unset&amp;nbsp; up&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; down&lt;/div&gt;&lt;div&gt;FastEthernet4&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unassigned&amp;nbsp; &amp;nbsp; &amp;nbsp; YES unset&amp;nbsp; up&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; up&lt;/div&gt;&lt;div&gt;Vlan1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unassigned&amp;nbsp; &amp;nbsp; &amp;nbsp; YES unset&amp;nbsp; up&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; down&lt;/div&gt;&lt;div&gt;R1#sh ipv6 int b&lt;/div&gt;&lt;div&gt;FastEthernet0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [up/down]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; unassigned&lt;/div&gt;&lt;div&gt;FastEthernet1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [up/down]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; unassigned&lt;/div&gt;&lt;div&gt;FastEthernet2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [up/down]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; unassigned&lt;/div&gt;&lt;div&gt;FastEthernet3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [up/down]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; unassigned&lt;/div&gt;&lt;div&gt;FastEthernet4&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [up/up]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; FE80::12F3:11FF:FEE8:D000&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2001:1::1&lt;/div&gt;&lt;div&gt;Vlan1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [up/down]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; unassigned&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="39" y="928" width="536" height="434" as="geometry" />
+        </mxCell>
+        <mxCell id="bn5Ac9AOri2V8h4Ts5We-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="bn5Ac9AOri2V8h4Ts5We-10" target="bn5Ac9AOri2V8h4Ts5We-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bn5Ac9AOri2V8h4Ts5We-8" value=":1&lt;br&gt;f4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="bn5Ac9AOri2V8h4Ts5We-7">
+          <mxGeometry x="-0.8403" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bn5Ac9AOri2V8h4Ts5We-9" value=":2&lt;br&gt;f4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="bn5Ac9AOri2V8h4Ts5We-7">
+          <mxGeometry x="0.8572" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bn5Ac9AOri2V8h4Ts5We-10" value="R1" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="644" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="bn5Ac9AOri2V8h4Ts5We-11" value="R2" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="644" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="bn5Ac9AOri2V8h4Ts5We-12" value="2001:1::/64" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1224" y="607" width="78" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
