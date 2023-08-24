@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T07:03:47.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tU2Kqj4zC_oW8MvakNWE" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T07:03:56.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GIuto9ROJ8b0m-YtqWm9" version="21.6.8" type="github">
   <diagram name="ページ1" id="_kK0_OZ8hu37GKY_X8Z_">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="41" y="56" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NgpdDbyxvN2O7LCOkagx-4" value="LDAP" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="545" y="158" width="120" height="60" as="geometry" />
+          <mxGeometry x="539" y="146" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NgpdDbyxvN2O7LCOkagx-5" value="Windows server" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="388" y="56" width="120" height="60" as="geometry" />
