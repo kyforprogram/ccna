@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T05:45:48.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="R4wn-hiBpiYgDX7ia4zx" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T05:47:12.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="x0bAJxJPJr0Rj3r1blMk" version="21.7.1" type="github">
   <diagram name="ページ1" id="dT8lKvFCBUrScKRdb4rl">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,11 +28,11 @@
         <mxCell id="6HCTai23pFKR4svxLffy-2" value="データリンク層&lt;br&gt;PPTP&lt;br&gt;L2TP" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1004" y="280" width="102" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="6HCTai23pFKR4svxLffy-3" value="ネットワーク層&lt;br&gt;IPsec&lt;br&gt;GRE" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1004" y="211" width="102" height="55" as="geometry" />
+        <mxCell id="6HCTai23pFKR4svxLffy-3" value="ネットワーク層&lt;br&gt;IPsec（Internet Protcol Security）&lt;br&gt;GRE ()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1004" y="211" width="200" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="6HCTai23pFKR4svxLffy-6" value="データリンク層" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="369" y="73" width="102" height="26" as="geometry" />
+        <mxCell id="6HCTai23pFKR4svxLffy-6" value="データリンク層&lt;br&gt;MPPE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="378" y="81" width="102" height="41" as="geometry" />
         </mxCell>
         <mxCell id="6HCTai23pFKR4svxLffy-9" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="287" y="242" width="272" height="60" as="geometry" />
