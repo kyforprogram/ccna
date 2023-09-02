@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T07:23:15.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="23CXNNiq2FO5NJyyKgoL" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T07:33:44.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="N_2aN63KWv_bZrDCFUhB" version="21.7.1" type="github">
   <diagram name="ページ1" id="XLSD_A1IlEpXkG6lMPJ8">
     <mxGraphModel dx="2252" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,10 +80,25 @@
           <mxGeometry x="17.5" y="662" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-32" value="プロトコル番号&lt;br&gt;EIGRP&lt;br&gt;OSPF" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1007" y="404" width="120" height="60" as="geometry" />
+          <mxGeometry x="938" y="404" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-33" value="ポート番号&lt;br&gt;SSH/Telnet&lt;br&gt;DNS&lt;br&gt;BGP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1007" y="286" width="120" height="60" as="geometry" />
+          <mxGeometry x="938" y="286" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hLAmCvZ6dHxx3_NF8wXx-34" target="hLAmCvZ6dHxx3_NF8wXx-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hLAmCvZ6dHxx3_NF8wXx-34" target="hLAmCvZ6dHxx3_NF8wXx-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-34" value="IP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1358" y="400.5" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-35" value="IP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="286" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-37" value="IP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1519" y="286" width="92" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
