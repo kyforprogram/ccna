@@ -1,38 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T07:12:21.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Z3WJXG6FOsB47Ljk1rhi" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T07:14:38.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fE990PdaaSwkk6En5a2-" version="21.7.1" type="github">
   <diagram name="ページ1" id="XLSD_A1IlEpXkG6lMPJ8">
-    <mxGraphModel dx="1595" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2252" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-1" value="データ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="566" y="139" width="120" height="60" as="geometry" />
+          <mxGeometry x="688" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-2" value="データ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="569" y="286" width="120" height="60" as="geometry" />
+          <mxGeometry x="688" y="286" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-3" value="TCPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="477" y="286" width="92" height="60" as="geometry" />
+          <mxGeometry x="596" y="286" width="92" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-4" value="TCPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="477" y="436" width="92" height="60" as="geometry" />
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-4" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596" y="436" width="92" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-5" value="データ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="569" y="436" width="120" height="60" as="geometry" />
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-5" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="436" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-6" value="IPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="436" width="92" height="60" as="geometry" />
+          <mxGeometry x="504" y="436" width="92" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-7" value="データ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="571" y="529" width="120" height="60" as="geometry" />
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="687" y="564" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-8" value="TCPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="479" y="529" width="92" height="60" as="geometry" />
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-8" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="564" width="92" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-9" value="IPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="387" y="529" width="92" height="60" as="geometry" />
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-9" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="564" width="92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-10" value="FCS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="691" y="529" width="92" height="60" as="geometry" />
+          <mxGeometry x="807" y="564" width="92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-11" value="アプリケーション" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="116" y="139" width="120" height="60" as="geometry" />
@@ -44,16 +44,40 @@
           <mxGeometry x="119" y="436" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-14" value="データリンク" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="121" y="529" width="120" height="60" as="geometry" />
+          <mxGeometry x="118" y="564" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-17" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="38" y="439.5" width="78" height="53" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-18" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="17" y="539" width="101" height="50" as="geometry" />
+          <mxGeometry x="14" y="574" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-19" value="MAC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="529" width="92" height="60" as="geometry" />
+          <mxGeometry x="411" y="564" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-23" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="823" y="702" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-24" value="物理層" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="702" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-26" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="427" y="702" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-27" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="703" y="702" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-28" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611" y="702" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-29" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="702" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-30" value="プリアンブル" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="702" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-31" value="hub" style="shape=mxgraph.cisco.hubs_and_gateways.small_hub;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="706" width="90" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
