@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T06:54:45.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HVgdYsPMLK42mKrB0pKZ" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T06:59:00.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="abLSfWzS6CeyANoH3P2P" version="21.7.1" type="github">
   <diagram name="ページ1" id="XLSD_A1IlEpXkG6lMPJ8">
-    <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2741" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-1" value="データ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="124" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-2" value="データ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-3" value="TCPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="193" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-4" value="TCPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="262" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-5" value="データ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="262" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-6" value="IPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="262" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-7" value="データ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-8" value="TCPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="332" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-9" value="IPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="332" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-10" value="IPヘッダ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="332" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-11" value="アプリケーション" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12" y="124" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-12" value="トランスポート" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-13" value="ネットワーク層" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12" y="262" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-14" value="データリンク" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12" y="332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-15" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-393" y="249" width="95" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-16" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="853" y="231" width="101" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-17" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-69" y="265.5" width="78" height="53" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
