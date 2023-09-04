@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T09:55:35.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xW3nILmJ0TVf9d5-ct8x" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T13:01:42.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="C1vIQ9aSWeyXuFPwwaYK" version="21.7.2" type="github">
   <diagram name="ページ1" id="dT8lKvFCBUrScKRdb4rl">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,9 @@
         </mxCell>
         <mxCell id="iN7foIdZGMYLOi0Fs2he-4" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="334" y="934" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="yY2GGmouGdZw-M5n04Jn-1" value="暗号化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="379" y="519" width="54" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
