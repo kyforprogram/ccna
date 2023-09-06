@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T00:25:49.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RCCBF_zd5YlxKnxXDwJm" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T10:13:58.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FVi3U8JL9-7lE8HKVjkU" version="21.7.2" type="github">
   <diagram name="ページ1" id="dT8lKvFCBUrScKRdb4rl">
     <mxGraphModel dx="2741" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,6 +225,9 @@
         </mxCell>
         <mxCell id="yY2GGmouGdZw-M5n04Jn-42" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="363" y="964" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AdaANhtb8B72JLg2mspB-1" value="LAN to LAN VPN 構築" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="914" y="649" width="137" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
