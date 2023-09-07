@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T12:34:36.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m5QV20Jp9a1WnKPAhckB" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T12:54:49.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8mXzIGUKHmzLaO9FtLb_" version="21.7.2" type="github">
   <diagram name="ページ1" id="MyD4pF7G6le_8Df9yOMC">
     <mxGraphModel dx="1759" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="mxpLmwV3dQGMwPdtPrcu-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="1">
           <mxGeometry x="72" y="144" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mxpLmwV3dQGMwPdtPrcu-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="157" y="45" width="39.5" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
