@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T14:46:03.851Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bagWlbGiIDMpPO2g2whq" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T14:46:20.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pzkw5t8Ap6TDM1DN7ZmQ" version="21.7.5" type="github">
   <diagram name="ページ1" id="dT8lKvFCBUrScKRdb4rl">
     <mxGraphModel dx="2650" dy="944" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,9 +27,6 @@
         </mxCell>
         <mxCell id="H7sqoX2Ojq_gLP6LzIEQ-9" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="616" y="232" width="86" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="6HCTai23pFKR4svxLffy-1" value="トランスポートモード&lt;br&gt;&lt;br&gt;トンネルモード&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="984" y="791.25" width="138" height="55" as="geometry" />
         </mxCell>
         <mxCell id="6HCTai23pFKR4svxLffy-2" value="データリンク層&lt;br&gt;PPTP&lt;br&gt;L2TP" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-545" y="557" width="102" height="55" as="geometry" />
@@ -219,15 +216,6 @@
         </mxCell>
         <mxCell id="yY2GGmouGdZw-M5n04Jn-42" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="363" y="964" width="101" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kiuYkO8eHHvAf3UtzUh4-1" value="TCPヘッダ&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;セグメント" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1246" y="796.75" width="92" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kiuYkO8eHHvAf3UtzUh4-2" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1338" y="796.75" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kiuYkO8eHHvAf3UtzUh4-3" value="IPヘッダ&lt;br&gt;パケット" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1154" y="796.75" width="92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kiuYkO8eHHvAf3UtzUh4-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;トランスポートモード&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="899" y="74" width="227.49" height="39.42" as="geometry" />
