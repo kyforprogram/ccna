@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:59:49.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="U4NBPQEo9oCPe1ZYo2o5" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-21T09:32:18.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1CQcaKwckPp9saEHjAn4" version="21.7.5" type="github" pages="3">
   <diagram name="ページ1" id="XUM9HiTrhm61UytOvaI0">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,10 +124,43 @@
     </mxGraphModel>
   </diagram>
   <diagram id="66V0neu34YQN7wxW1pFO" name="ASA">
-    <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2714" dy="1391" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-1" value="受信インターフェイス" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-171" y="480" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-2" value="送信インターフェイス" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="480" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-3" value="flow lookup&lt;br&gt;Fast Path&lt;br&gt;NP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-71" y="336" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-4" value="flow lookup" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-71" y="181" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-5" value="inspection" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="39" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-7" value="バックプレーン" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-28" y="409" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-8" value="高速転送&lt;br&gt;既存セッション" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="332" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-9" value="syslog&lt;br&gt;RP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="30" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-10" value="最初のコネクションはここで処理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-396" y="188" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-448" y="-56" width="1041" height="635" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-12" value="リソース不足&lt;br&gt;・overrun&lt;br&gt;受信バッファが一杯&lt;br&gt;・no buffer&lt;br&gt;ASAメモリが不足&lt;br&gt;・underruns&lt;br&gt;送信キューが一杯" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-287" y="744" width="195" height="137" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
