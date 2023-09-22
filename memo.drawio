@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T06:11:02.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="VTiicHUMCbVoKAh-VM9z" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-22T08:23:07.523Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FksCVK4nIrjhqtLgaW2p" version="21.7.5" type="github" pages="3">
   <diagram name="ページ1" id="XUM9HiTrhm61UytOvaI0">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,10 +124,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="66V0neu34YQN7wxW1pFO" name="ASA">
-    <mxGraphModel dx="3534" dy="1816" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3052" dy="1566" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-90" value="ASA" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2319.5" y="150" width="332" height="319" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-91" value="ASA&lt;br&gt;with Firepower" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2693" y="133" width="403" height="385" as="geometry" />
+        </mxCell>
         <mxCell id="U544Vvujy3ec3A7Eh6aA-81" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-706" y="640.5" width="1414" height="802.5" as="geometry" />
         </mxCell>
@@ -357,6 +363,21 @@
         </mxCell>
         <mxCell id="U544Vvujy3ec3A7Eh6aA-86" value="packet" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-197" y="1058" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-87" value="パケットフィルタリング&lt;br&gt;ステートフルインスペクション&lt;br&gt;NAT&lt;br&gt;VPN&lt;br&gt;HA" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2373" y="217" width="225" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-88" value="アプリケーションコントロール&lt;br&gt;ユーザコントロール&lt;br&gt;IPSIDS&lt;br&gt;L２L3構成" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2788" y="221" width="220" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-92" value="NGIPS&lt;br&gt;次世代" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2866" y="451" width="52" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-93" value="ASA 5500（第一世代）" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2311" y="566" width="532" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-94" value="ASA 5500&lt;br&gt;（第一世代）" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2311" y="854" width="525" height="162" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
