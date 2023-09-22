@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T09:41:34.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="51cSJHQFjQN66Z_g8XxD" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-22T00:29:12.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-1-KIyzfQGCN8IGkfjVv" version="21.7.5" type="github" pages="3">
   <diagram name="ページ1" id="XUM9HiTrhm61UytOvaI0">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,7 +159,7 @@
           <mxGeometry x="-396" y="188" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U544Vvujy3ec3A7Eh6aA-12" value="リソース不足&lt;br&gt;・overrun&lt;br&gt;受信バッファが一杯&lt;br&gt;・no buffer&lt;br&gt;ASAメモリが不足&lt;br&gt;・underruns&lt;br&gt;送信キューが一杯" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-287" y="744" width="195" height="137" as="geometry" />
+          <mxGeometry x="-409" y="377" width="195" height="137" as="geometry" />
         </mxCell>
         <mxCell id="U544Vvujy3ec3A7Eh6aA-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U544Vvujy3ec3A7Eh6aA-1" target="U544Vvujy3ec3A7Eh6aA-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
