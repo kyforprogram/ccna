@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T12:35:09.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nJiA3STVVv7V-0DBwkun" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-25T12:47:44.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="r08d1tKCExGcXXPhKeHy" version="21.7.5" type="github" pages="3">
   <diagram name="ページ1" id="XUM9HiTrhm61UytOvaI0">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +121,10 @@
           <mxGeometry x="667" y="1676" width="56" height="41" as="geometry" />
         </mxCell>
         <mxCell id="7Xyt0bVzF3qGDC6QUWbN-1" value="hrrpad.serviceのプロセスを止める方法はあるのか" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="731" y="2010" width="264" height="25" as="geometry" />
+          <mxGeometry x="932" y="1922" width="264" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7Xyt0bVzF3qGDC6QUWbN-2" value="hrrpad.serviceのプロセスを止める方法はなかった" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="935" y="1988" width="264" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
