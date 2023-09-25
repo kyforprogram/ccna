@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T12:48:23.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Bv7eb_TLqEgG9mrwIqgx" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-25T12:48:57.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LRNpo6tJ_2LdBhyeMLUW" version="21.7.5" type="github" pages="3">
   <diagram name="ページ1" id="XUM9HiTrhm61UytOvaI0">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="66V0neu34YQN7wxW1pFO" name="ASA">
-    <mxGraphModel dx="4628" dy="2382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="1083" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -355,8 +355,8 @@
         <mxCell id="U544Vvujy3ec3A7Eh6aA-84" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="U544Vvujy3ec3A7Eh6aA-75" target="U544Vvujy3ec3A7Eh6aA-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U544Vvujy3ec3A7Eh6aA-75" value="underruns&lt;br&gt;Engress キューによる破棄" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-213.5" y="1203" width="157" height="60" as="geometry" />
+        <mxCell id="U544Vvujy3ec3A7Eh6aA-75" value="underruns&lt;br&gt;Engress キュータイミングによる破棄" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-213.5" y="1203" width="258.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U544Vvujy3ec3A7Eh6aA-77" value="packet" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-171" y="865" width="42" height="26" as="geometry" />
