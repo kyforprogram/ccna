@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T11:26:24.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BsPf1YPTmqD7lXada6ad" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-28T09:15:56.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Iter8lvMsJg8DGqrnK52" version="21.7.5" type="github" pages="3">
   <diagram name="ページ1" id="XUM9HiTrhm61UytOvaI0">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Eftm_JLyO_YKd2KYxFaW-2" value="メーカナレッジ回答" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-432" y="2260" width="284" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftm_JLyO_YKd2KYxFaW-1" value="メーカナレッジ回答" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-329" y="2373" width="538" height="62" as="geometry" />
+        </mxCell>
         <mxCell id="Pyo2lomo39OJ3bA0sb3i-1" value="ASA5555&lt;br style=&quot;font-size: 19px;&quot;&gt;ver:9.12&lt;br style=&quot;font-size: 19px;&quot;&gt;" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=19;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-145" y="1528.75" width="78" height="53" as="geometry" />
         </mxCell>
@@ -174,9 +180,6 @@
         <mxCell id="07ZWAkaEDYHGw58W0jdT-19" value="2027年" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="189" y="2232" width="53" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="07ZWAkaEDYHGw58W0jdT-22" value="不具合でた&lt;br&gt;anycconect で修正できるのか" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="2263" width="92.75" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="07ZWAkaEDYHGw58W0jdT-23" value="ASA5555" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=19;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-657" y="2260" width="78" height="53" as="geometry" />
         </mxCell>
@@ -195,11 +198,8 @@
         <mxCell id="07ZWAkaEDYHGw58W0jdT-27" value="不具合でた&lt;br&gt;anycconect で修正できない" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-141" y="2470" width="359" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="07ZWAkaEDYHGw58W0jdT-28" value="不具合でた&lt;br&gt;anycconect で修正できない" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-145" y="2369.96" width="359" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="07ZWAkaEDYHGw58W0jdT-29" value="実質anyconnectの問い合わせができるのはこの日まで" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="2267" width="314" height="60" as="geometry" />
+        <mxCell id="Eftm_JLyO_YKd2KYxFaW-3" value="社内ナレッジのみ" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-136" y="2260" width="350" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
