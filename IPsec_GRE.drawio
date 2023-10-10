@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T12:50:03.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="UyDLk_ZlB-HSAFJ8E3AC" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T12:50:54.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="NvnXmXu-i9zL5F3NJMdP" version="22.0.4" type="github">
   <diagram name="ページ1" id="dT8lKvFCBUrScKRdb4rl">
     <mxGraphModel dx="3906" dy="1166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -422,7 +422,7 @@
           <mxGeometry x="4326" y="300.25" width="31" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BfMGireTKJEe2HU0osa1-49" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;IKE(Internet Key Exchange)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="5029" y="32.829999999999984" width="456" height="39.42" as="geometry" />
+          <mxGeometry x="5000" y="38.249999999999986" width="456" height="39.42" as="geometry" />
         </mxCell>
         <mxCell id="BfMGireTKJEe2HU0osa1-51" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;転送モード&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="3357" y="38.25" width="227.49" height="39.42" as="geometry" />
