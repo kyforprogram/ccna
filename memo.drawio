@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-14T01:31:55.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="AKm06Bd-VmEXztAoHKwt" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-14T01:32:16.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uOM5KMjgKOClWftq2EY1" version="22.0.4" type="github" pages="4">
   <diagram name="syslog" id="SZcuRFqe6lMJPhFZgu4H">
     <mxGraphModel dx="2314" dy="1791" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -455,7 +455,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="UqYJ70lwpsXMRey_v_3H" name="ページ4">
+  <diagram id="UqYJ70lwpsXMRey_v_3H" name="CentoOS">
     <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
