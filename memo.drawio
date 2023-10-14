@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-14T03:52:38.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="La5nmEyL8EfoGg3zm5WY" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-14T04:37:49.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VrwYcyn_LyhdLD53bzIP" version="22.0.4" type="github" pages="3">
   <diagram id="UqYJ70lwpsXMRey_v_3H" name="CentoOS">
     <mxGraphModel dx="2741" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,12 @@
         </mxCell>
         <mxCell id="dZbhzS3BR39JMHYfLgh_-3" value="nmap" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1187.5" y="17" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dZbhzS3BR39JMHYfLgh_-5" value="1. 必要な開発ツールとライブラリをインストールします:&#xa;   =================================&#xa;   sudo yum install automake autoconf gcc make libpcap-devel perl perl-LWP-UserAgent perl-Text-CSV&#xa;   =================================&#xa;&#xa;&#xa;   CentOS 7のデフォルトのリポジトリには、`libcap`と`libcap-devel`も含まれているので、それらもインストールしてください。&#xa;   =================================&#xa;   sudo yum install libcap libcap-devel&#xa;   =================================&#xa;&#xa;&#xa;2. GitHubから最新のソースコードをクローンします:&#xa;   =================================&#xa;   git clone https://github.com/royhills/arp-scan.git&#xa;   =================================&#xa;&#xa;&#xa;3. ソースコードディレクトリに移動します:&#xa;   =================================&#xa;   cd arp-scan&#xa;   =================================&#xa;&#xa;&#xa;4. `autoreconf`を実行して`configure`ファイルを生成します:&#xa;   =================================&#xa;   autoreconf --install&#xa;   =================================&#xa;&#xa;&#xa;5. `./configure`を実行して、システム用のMakefileを生成します:&#xa;   =================================&#xa;   ./configure&#xa;   =================================&#xa;&#xa;&#xa;6. プロジェクトをビルドします:&#xa;   =================================&#xa;   make&#xa;   =================================&#xa;&#xa;&#xa;   オプションで、すべてが期待どおりに機能するか確認できます:&#xa;   =================================&#xa;   make check&#xa;   =================================&#xa;&#xa;&#xa;7. ツールをインストールします（rootの権限が必要です）:&#xa;   =================================&#xa;   sudo make install&#xa;   =================================&#xa;&#xa;&#xa;この手順を完了すると、`arp-scan`コマンドを使用してネットワークスキャンを実行できるようになります。" style="text;whiteSpace=wrap;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1681" y="86" width="781" height="856" as="geometry" />
+        </mxCell>
+        <mxCell id="dZbhzS3BR39JMHYfLgh_-6" value="Arp-Scan" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2028" y="17" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
