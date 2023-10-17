@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T14:51:23.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1GNeU9rBExgzWp3x0Wio" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T14:52:17.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="O0C_l0D6wzQdSuDTZFhK" version="22.0.4" type="github">
   <diagram name="ページ1" id="dT8lKvFCBUrScKRdb4rl">
-    <mxGraphModel dx="3568" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3669" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -462,6 +462,9 @@
         </mxCell>
         <mxCell id="jnLla_DacXCHP1aaDpvh-3" value="DMVPN（Dynamic Multipoint Virtual Private Network）は、Ciscoルータを使用して複数のリモートサイト（スポーク）を&#xa;中央ネットワーク（ハブ）に安全に接続するためのテクノロジーです。&#xa;&#xa;&#xa;以下は、提供された情報の要点を説明します：&#xa;&#xa;&#xa;1. **mGREインターフェースの利用**: DMVPNでは、mGRE（Multipoint Generic Routing Encapsulation）&#xa;インターフェースを使用して、複数のスポークとハブを接続します。&#xa;mGREは、異なるスポーク間のトラフィックを同じトンネル上でルーティングするための仮想インターフェースです。&#xa;&#xa;&#xa;2. **tunnel destinationの指定不要**: 通常のVPNトンネル設定では、トンネルの宛先（tunnel destination）を明示的に指定する必要がありますが、DMVPNではそれが不要です。&#xa;&#xa;&#xa;3. **NHRPの使用**: DMVPNでは、ハブ側でNHRP（Next Hop Resolution Protocol）を使用して、各スポークの宛先トンネルアドレスを動的に取得します。&#xa;このため、スポーク側がダイナミックなIPアドレスを持っていても、NHRPを介してIP-to-NBMAアドレス（NBMAは非放送多重アクセスの略）のマッピングが自動的に行われ、VPNトンネルが確立できます。&#xa;&#xa;&#xa;4. **スポーク ⇔ スポーク通信のオンデマンド構築**: スポーク同士で通信が必要な場合、NHRPを使用してハブ側から対向のスポークのNBMAアドレスを取得し、&#xa;必要に応じてVPNトンネルを動的に構築します。つまり、スポーク同士の通信が発生したときに、必要なトンネルが自動的に確立され、通信が可能になります。&#xa;&#xa;&#xa;要するに、DMVPNは柔軟性が高く、スポーク間およびスポークからハブへのセキュアな通信を効率的に構築できる方法を提供します。特に、動的IPアドレスを&#xa;使用する環境でも、NHRPと組み合わせて効果的なVPNトンネルの設定が可能です。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-802" y="2918" width="789" height="525" as="geometry" />
+        </mxCell>
+        <mxCell id="jnLla_DacXCHP1aaDpvh-4" value="もちろんです。DMVPN（Dynamic Multipoint Virtual Private Network）をシンプルに説明します。&#xa;&#xa;&#xa;DMVPNは、異なる場所にあるコンピューターやネットワークを、安全につなげる技術です。これは、特に多くの支店やリモートオフィスがある企業や組織に役立ちます。&#xa;&#xa;&#xa;1. **インターネット経由での接続**: 企業や組織の異なる場所にあるコンピューターやネットワークは、通常、インターネットを介して接続されます。DMVPNもこのインターネットを使ってつなげる方法の一つです。&#xa;&#xa;&#xa;2. **セキュリティ**: しかし、インターネットは公共の場所であり、セキュリティが心配されます。DMVPNは、このセキュリティの問題を解決するために使われます。データは暗号化され、安全なトンネルを通って送信されます。&#xa;&#xa;&#xa;3. **スポークとハブ**: DMVPNを使うと、中央のハブ（企業本部など）が、異なる場所のスポーク（支店やリモートオフィス）と直接通信できます。スポーク同士も必要に応じて通信できます。&#xa;&#xa;&#xa;4. **IPアドレスの管理**: スポーク側のコンピューターやネットワークが動的なIPアドレスを持っていても、DMVPNはそれを扱うことができます。IPアドレスを自動的にマッピングして、通信を確立します。&#xa;&#xa;&#xa;5. **通信が必要なときにトンネルを作成**: スポーク同士が通信が必要な場合、DMVPNはそのために必要なトンネルを自動的に作成します。通信が終わったら、トンネルも自動的に閉じられます。&#xa;&#xa;&#xa;簡単に言えば、DMVPNは遠隔地のコンピューターやネットワークを安全につなげる技術で、特にセキュリティやIPアドレスの管理が必要な場合に役立ちます。それによって、異なる場所にあるコンピューターやネットワークが円滑に通信できるようになります。" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="3536" width="775" height="525" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
