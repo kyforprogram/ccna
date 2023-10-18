@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T12:24:48.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="PLOJr_fhIu3PipeteTJk" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-18T11:58:37.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="iAy9f7-DqxZ87hcYpoif" version="22.0.4" type="github" pages="4">
   <diagram id="UqYJ70lwpsXMRey_v_3H" name="CentoOS">
     <mxGraphModel dx="2741" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -464,6 +464,14 @@
         <mxCell id="U0gFtc-bBssia1bbziBy-2" value="Clientless SSL VPNとAnyConnect SSL VPNは、Cisco ASAのWebVPN機能の主要なコンポーネントです。&#xa;AnyConnect接続に影響せず、Clientless SSL VPN（WebVPN）の無効化は簡単です。&#xa;&#xa;&#xa;具体的な手順：&#xa;&#xa;&#xa;1. ASAに接続し、プリビレッジEXECモードに移動します。&#xa;   =================================&#xa;   ciscoasa&gt; enable&#xa;   =================================&#xa;&#xa;&#xa;2. グローバルWebVPN設定モードに移動します。&#xa;   =================================&#xa;   ciscoasa# config terminal&#xa;   ciscoasa(config)# webvpn&#xa;   =================================&#xa;&#xa;&#xa;3. `ssl-clientless` を無効にします。&gt;&gt;&gt; このコマンドは見当たらなかった&#xa;   =================================&#xa;   ciscoasa(config-webvpn)# no ssl-clientless&#xa;   =================================&#xa;&#xa;&#xa;Clientless SSL VPNが無効になり、AnyConnect SSL VPNは引き続き有効です。必要に応じてTFTPディレクトリの権限を確認し、書き込み権限を付与できます。&#xa;&#xa;&#xa;ディレクトリの権限を確認する：&#xa;=================================&#xa;ls -ld /var/lib/tftpboot&#xa;=================================&#xa;&#xa;&#xa;必要に応じて書き込み権限を付与する：&#xa;=================================&#xa;sudo chmod 777 /var/lib/tftpboot&#xa;=================================&#xa;&#xa;&#xa;以上の手順で、Clientless SSL VPN（WebVPN）の無効化とTFTPディレクトリの権限の確認が行われます。" style="text;whiteSpace=wrap;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="664.9966071428578" y="2165.502053571429" width="550" height="669" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A-C5r3dHkA_ZgB1YutPg" name="ページ4">
+    <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
