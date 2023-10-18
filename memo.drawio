@@ -1,4 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T11:59:57.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="49dsF_u-GmtsORj5hntu" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-18T12:00:06.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="h6p6LeGnX2akWwvvjQJf" version="22.0.4" type="github" pages="4">
+  <diagram id="A-C5r3dHkA_ZgB1YutPg" name="Cisco">
+    <mxGraphModel dx="1320" dy="683" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jx0rd9BqZye-DjyECx63-1" value="&#xa;**報告書: WS-C3650-48TS-S スイッチの性能評価**&#xa;&#xa;&#xa;**1. 概要**&#xa;&#xa;&#xa;この報告書は、CiscoのWS-C3650-48TS-Sスイッチの性能に関する評価を提供します。WS-C3650-48TS-Sは、高性能なノンブロッキングスイッチであり、48ポートの1Gbpsポートと4ポートの1Gbpsアップリンクポートを持っています。&#xa;&#xa;&#xa;**2. 帯域幅**&#xa;&#xa;&#xa;WS-C3650-48TS-Sの帯域幅は、以下の通りです。&#xa;- 48ポート x 1Gbps = 48Gbps（ポート間の帯域幅）&#xa;- 4ポート x 1Gbps = 4Gbps（アップリンクポートの帯域幅）&#xa;合計：52Gbps&#xa;&#xa;&#xa;ただし、公式のデータシートによれば、実際の帯域幅は392 Gbpsです。この帯域幅は、48ポートとアップリンクボトルネック（10G アップリンク x 4）を合計したものであり、すべてのポートが同時にフル速度でデータ転送を行える高性能なノンブロッキングスイッチであることを示しています。&#xa;&#xa;&#xa;**3. 結論**&#xa;&#xa;&#xa;WS-C3650-48TS-Sは、48ポートの1Gbpsポートと4ポートの1Gbpsアップリンクポートを備えた高性能なノンブロッキングスイッチです。公式のデータシートによれば、392 Gbpsの帯域幅を持ち、すべてのポートが同時にフル速度でデータ転送を行うことができます。これにより、大規模なネットワーク環境で高いパフォーマンスを提供することが可能です。&#xa;&#xa;&#xa;以上がWS-C3650-48TS-Sスイッチの性能に関する報告書のまとめです。&#xa;&#xa;https://www.cisco.com/c/ja_jp/products/collateral/switches/catalyst-3650-series-switches/datasheet-c78-729449.html" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="81" y="139" width="649.99" height="652.99" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="UqYJ70lwpsXMRey_v_3H" name="CentoOS">
     <mxGraphModel dx="2741" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -463,17 +474,6 @@
         </mxCell>
         <mxCell id="U0gFtc-bBssia1bbziBy-2" value="Clientless SSL VPNとAnyConnect SSL VPNは、Cisco ASAのWebVPN機能の主要なコンポーネントです。&#xa;AnyConnect接続に影響せず、Clientless SSL VPN（WebVPN）の無効化は簡単です。&#xa;&#xa;&#xa;具体的な手順：&#xa;&#xa;&#xa;1. ASAに接続し、プリビレッジEXECモードに移動します。&#xa;   =================================&#xa;   ciscoasa&gt; enable&#xa;   =================================&#xa;&#xa;&#xa;2. グローバルWebVPN設定モードに移動します。&#xa;   =================================&#xa;   ciscoasa# config terminal&#xa;   ciscoasa(config)# webvpn&#xa;   =================================&#xa;&#xa;&#xa;3. `ssl-clientless` を無効にします。&gt;&gt;&gt; このコマンドは見当たらなかった&#xa;   =================================&#xa;   ciscoasa(config-webvpn)# no ssl-clientless&#xa;   =================================&#xa;&#xa;&#xa;Clientless SSL VPNが無効になり、AnyConnect SSL VPNは引き続き有効です。必要に応じてTFTPディレクトリの権限を確認し、書き込み権限を付与できます。&#xa;&#xa;&#xa;ディレクトリの権限を確認する：&#xa;=================================&#xa;ls -ld /var/lib/tftpboot&#xa;=================================&#xa;&#xa;&#xa;必要に応じて書き込み権限を付与する：&#xa;=================================&#xa;sudo chmod 777 /var/lib/tftpboot&#xa;=================================&#xa;&#xa;&#xa;以上の手順で、Clientless SSL VPN（WebVPN）の無効化とTFTPディレクトリの権限の確認が行われます。" style="text;whiteSpace=wrap;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="664.9966071428578" y="2165.502053571429" width="550" height="669" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="A-C5r3dHkA_ZgB1YutPg" name="Cisco">
-    <mxGraphModel dx="1320" dy="683" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="Jx0rd9BqZye-DjyECx63-1" value="&#xa;**報告書: WS-C3650-48TS-S スイッチの性能評価**&#xa;&#xa;&#xa;**1. 概要**&#xa;&#xa;&#xa;この報告書は、CiscoのWS-C3650-48TS-Sスイッチの性能に関する評価を提供します。WS-C3650-48TS-Sは、高性能なノンブロッキングスイッチであり、48ポートの1Gbpsポートと4ポートの1Gbpsアップリンクポートを持っています。&#xa;&#xa;&#xa;**2. 帯域幅**&#xa;&#xa;&#xa;WS-C3650-48TS-Sの帯域幅は、以下の通りです。&#xa;- 48ポート x 1Gbps = 48Gbps（ポート間の帯域幅）&#xa;- 4ポート x 1Gbps = 4Gbps（アップリンクポートの帯域幅）&#xa;合計：52Gbps&#xa;&#xa;&#xa;ただし、公式のデータシートによれば、実際の帯域幅は392 Gbpsです。この帯域幅は、48ポートとアップリンクボトルネック（10G アップリンク x 4）を合計したものであり、すべてのポートが同時にフル速度でデータ転送を行える高性能なノンブロッキングスイッチであることを示しています。&#xa;&#xa;&#xa;**3. 結論**&#xa;&#xa;&#xa;WS-C3650-48TS-Sは、48ポートの1Gbpsポートと4ポートの1Gbpsアップリンクポートを備えた高性能なノンブロッキングスイッチです。公式のデータシートによれば、392 Gbpsの帯域幅を持ち、すべてのポートが同時にフル速度でデータ転送を行うことができます。これにより、大規模なネットワーク環境で高いパフォーマンスを提供することが可能です。&#xa;&#xa;&#xa;以上がWS-C3650-48TS-Sスイッチの性能に関する報告書のまとめです。&#xa;&#xa;https://www.cisco.com/c/ja_jp/products/collateral/switches/catalyst-3650-series-switches/datasheet-c78-729449.html" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="81" y="139" width="649.99" height="652.99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
