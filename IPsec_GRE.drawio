@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T06:56:04.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1QBdKt3vOiOYyepme2aO" version="22.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-23T12:26:49.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0tmaQPC6ogg0fwzaDBoL" version="22.0.6" type="github" pages="3">
   <diagram name="IPsec" id="dT8lKvFCBUrScKRdb4rl">
-    <mxGraphModel dx="3341" dy="999" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3568" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -718,130 +718,130 @@
         <mxCell id="AfGEVDMi1TCouy9sJihb-60" value="固定アドレスには：メインモード&lt;br&gt;動的アドレスには：アグレッシブ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5019" y="652" width="198" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-1" value="R1(config)#crypto isakmp policy ?&#xa;  &lt;1-10000&gt;  Priority of protection suite&#xa;&#xa;&#xa;R1(config)#crypto isakmp policy 20&#xa;R1(config-isakmp)#auth&#xa;R1(config-isakmp)#authentication ?&#xa;  pre-share  Pre-Shared Key&#xa;  rsa-encr   Rivest-Shamir-Adleman Encryption&#xa;  rsa-sig    Rivest-Shamir-Adleman Signature" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-1" value="R1(config)#crypto isakmp policy ?&#xa;  &lt;1-10000&gt;  Priority of protection suite&#xa;&#xa;&#xa;R1(config)#crypto isakmp policy 20&#xa;R1(config-isakmp)#auth&#xa;R1(config-isakmp)#authentication ?&#xa;  pre-share  Pre-Shared Key&#xa;  rsa-encr   Rivest-Shamir-Adleman Encryption&#xa;  rsa-sig    Rivest-Shamir-Adleman Signature" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="5097.5" y="897" width="272" height="166" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-2" value="IPsec通信をこれから開始しようとする" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-2" value="IPsec通信をこれから開始しようとする" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="5200.9978125" y="831.41171875" width="238" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="85A0upx8m8P1Z9jEGisD-4" target="85A0upx8m8P1Z9jEGisD-5">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="85A0upx8m8P1Z9jEGisD-4" target="85A0upx8m8P1Z9jEGisD-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-4" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-4" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="5009" y="790.66" width="86" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-5" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-5" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="5534" y="790.66" width="86" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;IKEフェーズ1&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;IKEフェーズ1&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5009.001576086958" y="730.5923641304348" width="102" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-7" value="暗号化方式とハッシュ値方式の相互認証を行いIKE SAを生成する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-7" value="暗号化方式とハッシュ値方式の相互認証を行いIKE SAを生成する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5135.5" y="854.3699999999999" width="369" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-8" value="開始側" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-8" value="開始側" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="5011.5" y="1148.5" width="86" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-9" value="応答側" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-9" value="応答側" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="5536.5" y="1148.5" width="86" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;IKEフェーズ1&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;IKEフェーズ1&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5001.001576086958" y="1100.4623641304347" width="102" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-11" value="・メインモード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-11" value="・メインモード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5003.5" y="1121.42" width="102" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-12" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-12" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5292" y="979" width="53" height="432" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5096.5" y="1176.5" as="sourcePoint" />
             <mxPoint x="5535.5" y="1176.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5097.5" y="1183.5" as="sourcePoint" />
             <mxPoint x="5536.5" y="1183.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5096.5" y="1191.5" as="sourcePoint" />
             <mxPoint x="5535.5" y="1191.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5097.5" y="1208.5" as="sourcePoint" />
             <mxPoint x="5536.5" y="1208.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5096.5" y="1214.5" as="sourcePoint" />
             <mxPoint x="5535.5" y="1214.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5097.5" y="1200.5" as="sourcePoint" />
             <mxPoint x="5536.5" y="1200.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-19" value="6ウェイ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-19" value="6ウェイ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5289" y="1216.67" width="61" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-20" value="暗号化用共有シークレットによるトンネル" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-20" value="暗号化用共有シークレットによるトンネル" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5201" y="1231.54" width="246" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-21" value="IKE SA 確立フェーズ（ID 認証用ペイロード暗号化あり）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-21" value="IKE SA 確立フェーズ（ID 認証用ペイロード暗号化あり）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5149.5" y="1142.94" width="327" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-22" value="開始側" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-22" value="開始側" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="5009" y="1311.25" width="86" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-23" value="応答側" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-23" value="応答側" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="5534" y="1311.25" width="86" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-24" value="・アグレッシブモード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-24" value="・アグレッシブモード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5003.5" y="1280.29" width="138" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-25" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-25" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5289.5" y="1141.75" width="53" height="432" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5095" y="1344.25" as="sourcePoint" />
             <mxPoint x="5534" y="1344.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5093.5" y="1357.5" as="sourcePoint" />
             <mxPoint x="5532.5" y="1357.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5095" y="1371.25" as="sourcePoint" />
             <mxPoint x="5534" y="1371.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-29" value="3ウェイ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-29" value="3ウェイ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5286.5" y="1379.42" width="61" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-30" value="ID　認証用ペイロード暗号化なし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-30" value="ID　認証用ペイロード暗号化なし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5212" y="1305.69" width="198" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-31" value="固定アドレスには：メインモード&lt;br&gt;動的アドレスには：アグレッシブ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-31" value="固定アドレスには：メインモード&lt;br&gt;動的アドレスには：アグレッシブ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5019" y="1424.79" width="198" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-32" value="R1(config)#crypto isakmp peer address 100.100.100.100&#xa;R1(config-isakmp-peer)#set aggressive-mode password cisco&#xa;R1(config-isakmp-peer)#set aggressive-mode client-endpoint ipv4-address 1.1.1.1" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-32" value="R1(config)#crypto isakmp peer address 100.100.100.100&#xa;R1(config-isakmp-peer)#set aggressive-mode password cisco&#xa;R1(config-isakmp-peer)#set aggressive-mode client-endpoint ipv4-address 1.1.1.1" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="5080.3" y="1492" width="471.4" height="54.6" as="geometry" />
         </mxCell>
-        <mxCell id="85A0upx8m8P1Z9jEGisD-33" value="R1(config)#crypto map CM 9 ipsec-isakmp&#xa;% NOTE: This new crypto map will remain disabled until a peer&#xa;        and a valid access list have been configured.&#xa;R1(config-crypto-map)#&#xa;R1(config-crypto-map)#set ?&#xa;  identity              Identity restriction.&#xa;  ip                    Interface Internet Protocol config commands&#xa;  isakmp-profile        Specify isakmp Profile&#xa;  nat                   Set NAT translation&#xa;  peer                  Allowed Encryption/Decryption peer.&#xa;  pfs                   Specify pfs settings&#xa;  reverse-route         Reverse Route Injection.&#xa;  security-association  Security association parameters&#xa;  transform-set         Specify list of transform sets in priority order&#xa;&#xa;&#xa;R1(config-crypto-map)#set pfs ?&#xa;  group1   D-H Group1 (768-bit modp)&#xa;  group14  D-H Group14 (2048-bit modp)&#xa;  group15  D-H Group15 (3072-bit modp)&#xa;  group16  D-H Group16 (4096-bit modp)&#xa;  group2   D-H Group2 (1024-bit modp)&#xa;  group5   D-H Group5 (1536-bit modp)&#xa;  &lt;cr&gt;&#xa;&#xa;&#xa;R1(config-crypto-map)#set pfs grou&#xa;R1(config-crypto-map)#set pfs group2" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="85A0upx8m8P1Z9jEGisD-33" value="R1(config)#crypto map CM 9 ipsec-isakmp&#xa;% NOTE: This new crypto map will remain disabled until a peer&#xa;        and a valid access list have been configured.&#xa;R1(config-crypto-map)#&#xa;R1(config-crypto-map)#set ?&#xa;  identity              Identity restriction.&#xa;  ip                    Interface Internet Protocol config commands&#xa;  isakmp-profile        Specify isakmp Profile&#xa;  nat                   Set NAT translation&#xa;  peer                  Allowed Encryption/Decryption peer.&#xa;  pfs                   Specify pfs settings&#xa;  reverse-route         Reverse Route Injection.&#xa;  security-association  Security association parameters&#xa;  transform-set         Specify list of transform sets in priority order&#xa;&#xa;&#xa;R1(config-crypto-map)#set pfs ?&#xa;  group1   D-H Group1 (768-bit modp)&#xa;  group14  D-H Group14 (2048-bit modp)&#xa;  group15  D-H Group15 (3072-bit modp)&#xa;  group16  D-H Group16 (4096-bit modp)&#xa;  group2   D-H Group2 (1024-bit modp)&#xa;  group5   D-H Group5 (1536-bit modp)&#xa;  &lt;cr&gt;&#xa;&#xa;&#xa;R1(config-crypto-map)#set pfs grou&#xa;R1(config-crypto-map)#set pfs group2" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="6014.503529411766" y="692.9964705882353" width="369" height="425" as="geometry" />
         </mxCell>
       </root>
@@ -860,8 +860,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yn46xCzViOpvrWsni6iW-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;DMVPN&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="7531" y="51.999999999999986" width="456" height="39.42" as="geometry" />
+        <mxCell id="Yn46xCzViOpvrWsni6iW-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;DMVPN&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="7497" y="41.999999999999986" width="456" height="39.42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
