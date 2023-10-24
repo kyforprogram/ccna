@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T12:26:49.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0tmaQPC6ogg0fwzaDBoL" version="22.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-24T13:38:59.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_M25eadumydde3NI_o67" version="22.0.6" type="github" pages="3">
   <diagram name="IPsec" id="dT8lKvFCBUrScKRdb4rl">
     <mxGraphModel dx="3568" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -848,10 +848,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M9i0oOIWjLtYCkGoaohp" name="GRE_over_IPsec">
-    <mxGraphModel dx="1914" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="911" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vgcPHifBon_qTMPiEeY9-1" value="R1(config)#interface tunnel 1&#xa;R1(config-if)#tunnel mode gre ip" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="88" y="140" width="181.74" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
