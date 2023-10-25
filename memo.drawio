@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T13:26:44.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ZrG-OJdDRWf5Y-Rcgce2" version="22.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-25T06:59:32.187Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="abG3VvALgoKqczcERXlf" version="22.0.7" type="github" pages="4">
   <diagram id="A-C5r3dHkA_ZgB1YutPg" name="Cisco">
     <mxGraphModel dx="1434" dy="870" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,14 +7,14 @@
         <mxCell id="Jx0rd9BqZye-DjyECx63-1" value="&#xa;**報告書: WS-C3650-48TS-S スイッチの性能評価**&#xa;&#xa;&#xa;**1. 概要**&#xa;&#xa;&#xa;この報告書は、CiscoのWS-C3650-48TS-Sスイッチの性能に関する評価を提供します。WS-C3650-48TS-Sは、高性能なノンブロッキングスイッチであり、48ポートの1Gbpsポートと4ポートの1Gbpsアップリンクポートを持っています。&#xa;&#xa;&#xa;**2. 帯域幅**&#xa;&#xa;&#xa;WS-C3650-48TS-Sの帯域幅は、以下の通りです。&#xa;- 48ポート x 1Gbps = 48Gbps（ポート間の帯域幅）&#xa;- 4ポート x 1Gbps = 4Gbps（アップリンクポートの帯域幅）&#xa;合計：52Gbps&#xa;&#xa;&#xa;ただし、公式のデータシートによれば、実際の帯域幅は392 Gbpsです。この帯域幅は、48ポートとアップリンクボトルネック（10G アップリンク x 4）を合計したものであり、すべてのポートが同時にフル速度でデータ転送を行える高性能なノンブロッキングスイッチであることを示しています。&#xa;&#xa;&#xa;**3. 結論**&#xa;&#xa;&#xa;WS-C3650-48TS-Sは、48ポートの1Gbpsポートと4ポートの1Gbpsアップリンクポートを備えた高性能なノンブロッキングスイッチです。公式のデータシートによれば、392 Gbpsの帯域幅を持ち、すべてのポートが同時にフル速度でデータ転送を行うことができます。これにより、大規模なネットワーク環境で高いパフォーマンスを提供することが可能です。&#xa;&#xa;&#xa;以上がWS-C3650-48TS-Sスイッチの性能に関する報告書のまとめです。&#xa;&#xa;https://www.cisco.com/c/ja_jp/products/collateral/switches/catalyst-3650-series-switches/datasheet-c78-729449.html" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="81" y="139" width="649.99" height="652.99" as="geometry" />
         </mxCell>
-        <mxCell id="PU6ecrxdonf42bDhx_lJ-1" value="non blocking SW" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PU6ecrxdonf42bDhx_lJ-1" value="non blocking SW" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="46" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="UqYJ70lwpsXMRey_v_3H" name="CentoOS">
-    <mxGraphModel dx="2741" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1827" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,6 +41,12 @@
         </mxCell>
         <mxCell id="dZbhzS3BR39JMHYfLgh_-6" value="Arp-Scan" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2028" y="17" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IfmsIlT_B5YewD97dcWE-1" value="nmtui" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1188" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IfmsIlT_B5YewD97dcWE-3" value="nmtui" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1283" width="47" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
