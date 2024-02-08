@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T13:38:59.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_M25eadumydde3NI_o67" version="22.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-08T05:51:44.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="fCg2k2-KEYHbNspn6QSF" version="23.1.1" type="github" pages="3">
   <diagram name="IPsec" id="dT8lKvFCBUrScKRdb4rl">
-    <mxGraphModel dx="3568" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3318" dy="849" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -422,7 +422,7 @@
           <mxGeometry x="4567.75" y="-28" width="40.5" height="491.94" as="geometry" />
         </mxCell>
         <mxCell id="BfMGireTKJEe2HU0osa1-45" value="共通鍵" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="4830" y="124.25" width="26" height="50" as="geometry" />
+          <mxGeometry x="4858" y="106" width="26" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BfMGireTKJEe2HU0osa1-47" value="共通鍵" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key.svg;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="4326" y="300.25" width="31" height="50" as="geometry" />
@@ -440,7 +440,7 @@
           <mxGeometry x="870" y="38.25000000000003" width="227.49" height="39.42" as="geometry" />
         </mxCell>
         <mxCell id="Zw0NqxiTdBZ48zIR8YBY-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;IPsecのパケット着信&lt;br&gt;Routing&lt;br&gt;出力I/Fを決定&lt;br&gt;NAT/ACL処理&lt;br&gt;Crypto ACL&lt;br&gt;SA&lt;br&gt;転送&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="870" y="108.5" width="429" height="39.42" as="geometry" />
+          <mxGeometry x="870" y="108.5" width="665" height="209.5" as="geometry" />
         </mxCell>
         <mxCell id="kHaRYAq6EDXSddv5x34l-2" value="&lt;div&gt;簡単に言うと、SSL VPNやVPNアプリは、インターネット上での通信を「封筒」の中に入れて送るようなもの&lt;/div&gt;&lt;div&gt;この「封筒」技術によって、私たちは安全にインターネットを利用することができます。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-644" y="1214" width="609" height="41" as="geometry" />
@@ -843,6 +843,9 @@
         </mxCell>
         <mxCell id="85A0upx8m8P1Z9jEGisD-33" value="R1(config)#crypto map CM 9 ipsec-isakmp&#xa;% NOTE: This new crypto map will remain disabled until a peer&#xa;        and a valid access list have been configured.&#xa;R1(config-crypto-map)#&#xa;R1(config-crypto-map)#set ?&#xa;  identity              Identity restriction.&#xa;  ip                    Interface Internet Protocol config commands&#xa;  isakmp-profile        Specify isakmp Profile&#xa;  nat                   Set NAT translation&#xa;  peer                  Allowed Encryption/Decryption peer.&#xa;  pfs                   Specify pfs settings&#xa;  reverse-route         Reverse Route Injection.&#xa;  security-association  Security association parameters&#xa;  transform-set         Specify list of transform sets in priority order&#xa;&#xa;&#xa;R1(config-crypto-map)#set pfs ?&#xa;  group1   D-H Group1 (768-bit modp)&#xa;  group14  D-H Group14 (2048-bit modp)&#xa;  group15  D-H Group15 (3072-bit modp)&#xa;  group16  D-H Group16 (4096-bit modp)&#xa;  group2   D-H Group2 (1024-bit modp)&#xa;  group5   D-H Group5 (1536-bit modp)&#xa;  &lt;cr&gt;&#xa;&#xa;&#xa;R1(config-crypto-map)#set pfs grou&#xa;R1(config-crypto-map)#set pfs group2" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="6014.503529411766" y="692.9964705882353" width="369" height="425" as="geometry" />
+        </mxCell>
+        <mxCell id="eI9XHJz_rqhiNZ9SFNOZ-1" value="CPUやプロセス" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5045" y="1624" width="103" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
