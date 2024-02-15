@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T12:40:25.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_mu5rdOjkVPtZAJoJKom" version="22.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-15T09:40:30.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="3hEaMyTg6DbqNXFYOIYy" version="23.1.4" type="github" pages="6">
   <diagram id="W4a5zuRhi42aG-U77kNk" name="esxi on workstation">
     <mxGraphModel dx="1914" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UqYJ70lwpsXMRey_v_3H" name="CentoOS">
-    <mxGraphModel dx="2741" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4655" dy="1952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,10 +97,10 @@
         <mxCell id="IfmsIlT_B5YewD97dcWE-3" value="nmtui" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="75" y="1283" width="47" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SAs07LxlZrSlaHHgg3f0-1" value="1. **SNMPパッケージのインストール**:&#xa;   CentOS 7では、`yum`パッケージマネージャを使用してSNMP関連のパッケージをインストールできます。以下のコマンドでSNMPサービスとSNMPユーティリティをインストールします。&#xa;   =================================&#xa;   sudo yum install -y net-snmp net-snmp-utils&#xa;   =================================&#xa;&#xa;&#xa;2. **SNMPサービスの設定**:&#xa;   インストール後、`/etc/snmp/snmpd.conf`という設定ファイルを編集してSNMPサービスを設定します。ここでコミュニティ文字列を設定し（デフォルトは&quot;public&quot;）、必要に応じて監視対象の範囲やアクセス許可をカスタマイズできます。&#xa;&#xa;&#xa;3. **ファイアウォールの設定**:&#xa;   CentOS 7ではファイアウォールがデフォルトで有効になっているため、SNMPが使用するポート（通常はUDP 161）を開放する必要があります。以下のコマンドでファイアウォール設定を行います。&#xa;   =================================&#xa;   sudo firewall-cmd --permanent --add-port=161/udp&#xa;   sudo firewall-cmd --reload&#xa;   =================================&#xa;&#xa;&#xa;4. **SNMPサービスの起動と有効化**:&#xa;   設定が完了したら、SNMPサービスを起動し、システム起動時に自動で起動するように設定します。&#xa;   =================================&#xa;   sudo systemctl start snmpd&#xa;   sudo systemctl enable snmpd&#xa;   =================================&#xa;&#xa;&#xa;5. **SNMPサービスの確認**:&#xa;   SNMPサービスが正しく動作しているか確認するには、`snmpwalk`コマンドを使用します。たとえば、以下のコマンドでローカルホストのSNMP情報を取得できます。&#xa;   =================================&#xa;   snmpwalk -v 2c -c public localhost&#xa;   =================================&#xa;&#xa;&#xa;これらの手順に従うことで、CentOS 7上で基本的なSNMP環境を構築できます。ただし、SNMPはセキュリティの観点から慎重に扱う必要があります。特にコミュニティ文字列や監視対象の設定は、適切にセキュアに保つことが重要です。また、より高度な設定やSNMPv3の使用など、追加の設定が必要な場合がありますので、それぞれのニーズに応じて検討してください。" style="text;whiteSpace=wrap;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="SAs07LxlZrSlaHHgg3f0-1" value="1. **SNMPパッケージのインストール**:&#xa;   CentOS 7では、`yum`パッケージマネージャを使用してSNMP関連のパッケージをインストールできます。以下のコマンドでSNMPサービスとSNMPユーティリティをインストールします。&#xa;   =================================&#xa;   sudo yum install -y net-snmp net-snmp-utils&#xa;   =================================&#xa;&#xa;&#xa;2. **SNMPサービスの設定**:&#xa;   インストール後、`/etc/snmp/snmpd.conf`という設定ファイルを編集してSNMPサービスを設定します。ここでコミュニティ文字列を設定し（デフォルトは&quot;public&quot;）、必要に応じて監視対象の範囲やアクセス許可をカスタマイズできます。&#xa;&#xa;&#xa;3. **ファイアウォールの設定**:&#xa;   CentOS 7ではファイアウォールがデフォルトで有効になっているため、SNMPが使用するポート（通常はUDP 161）を開放する必要があります。以下のコマンドでファイアウォール設定を行います。&#xa;   =================================&#xa;   sudo firewall-cmd --permanent --add-port=161/udp&#xa;   sudo firewall-cmd --reload&#xa;   =================================&#xa;&#xa;&#xa;4. **SNMPサービスの起動と有効化**:&#xa;   設定が完了したら、SNMPサービスを起動し、システム起動時に自動で起動するように設定します。&#xa;   =================================&#xa;   sudo systemctl start snmpd&#xa;   sudo systemctl enable snmpd&#xa;   =================================&#xa;&#xa;&#xa;5. **SNMPサービスの確認**:&#xa;   SNMPサービスが正しく動作しているか確認するには、`snmpwalk`コマンドを使用します。たとえば、以下のコマンドでローカルホストのSNMP情報を取得できます。&#xa;   =================================&#xa;   snmpwalk -v 2c -c public localhost&#xa;   =================================&#xa;&#xa;&#xa;これらの手順に従うことで、CentOS 7上で基本的なSNMP環境を構築できます。ただし、SNMPはセキュリティの観点から慎重に扱う必要があります。特にコミュニティ文字列や監視対象の設定は、適切にセキュアに保つことが重要です。また、より高度な設定やSNMPv3の使用など、追加の設定が必要な場合がありますので、それぞれのニーズに応じて検討してください。" style="text;whiteSpace=wrap;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="923" y="1272" width="695" height="669" as="geometry" />
         </mxCell>
-        <mxCell id="SAs07LxlZrSlaHHgg3f0-2" value="SNMP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SAs07LxlZrSlaHHgg3f0-2" value="SNMP" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1187.5" y="1184" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
@@ -604,6 +604,14 @@
             <mxGeometry x="208.99687500000005" y="1293.9981696428574" width="550" height="108" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hXxfs0hC3qOZFp_J4_Cp" name="ページ6">
+    <mxGraphModel dx="1914" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
