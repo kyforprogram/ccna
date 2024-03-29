@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T07:44:42.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="PdGTCKqytN_2vygRqCTQ" version="24.2.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-29T00:03:46.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="IN3k-cZMcJiOL_BCaXET" version="24.2.0" type="github" pages="7">
   <diagram id="W4a5zuRhi42aG-U77kNk" name="esxi on workstation">
     <mxGraphModel dx="1914" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -723,7 +723,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2KOBNthHjj5EjmuvwUHU" name="ページ7">
-    <mxGraphModel dx="1311" dy="865" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1995" dy="1213" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -771,26 +771,24 @@
             <mxPoint x="21" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k387zt7CH_GC766_xaJV-6" value="&lt;div&gt;Switch A&lt;/div&gt;vlan 10&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;192.168.10.1/24&lt;/span&gt;&lt;div&gt;vlan 20 192.168.20.1/24&lt;/div&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="k387zt7CH_GC766_xaJV-6" value="&lt;div&gt;Switch A&lt;/div&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="91" y="724" width="101" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="k387zt7CH_GC766_xaJV-7" value="&lt;div&gt;Switch B&lt;/div&gt;vlan 10&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;192.168.10.2/24&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;vlan 20 192.168.20.2/24&lt;/span&gt;&lt;/div&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="k387zt7CH_GC766_xaJV-7" value="&lt;div&gt;Switch B&lt;/div&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="723" y="742" width="101" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k387zt7CH_GC766_xaJV-8" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rotation=90;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="415.25" y="559.25" width="61.75" height="391.5" as="geometry" />
         </mxCell>
-        <mxCell id="k387zt7CH_GC766_xaJV-12" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rotation=90;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="415.25" y="4" width="34" height="391.5" as="geometry" />
+        <mxCell id="k387zt7CH_GC766_xaJV-17" value="PO9&lt;div&gt;mode on&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="241.36681854541257" y="761.6306121643249" as="geometry">
+            <mxPoint x="12" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="k387zt7CH_GC766_xaJV-13" value="vlan 10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="405.75" y="184" width="53" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="k387zt7CH_GC766_xaJV-14" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rotation=90;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="419.12" y="43" width="34" height="391.5" as="geometry" />
-        </mxCell>
-        <mxCell id="k387zt7CH_GC766_xaJV-15" value="vlan 20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="405.75" y="226.25" width="53" height="25" as="geometry" />
+        <mxCell id="k387zt7CH_GC766_xaJV-18" value="Po1&lt;div&gt;mode on&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="599.9968185454126" y="761.6306121643249" as="geometry">
+            <mxPoint x="12" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
