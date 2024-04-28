@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T00:04:50.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_fMTsOgirJBMTHDkPhMB" version="24.2.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-28T02:44:55.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pzn-J5c4QfO-6XegQDdn" version="24.3.0" type="github" pages="7">
   <diagram id="W4a5zuRhi42aG-U77kNk" name="esxi on workstation">
     <mxGraphModel dx="1914" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sN878bLec5ME6-0bFv0F" name="asa">
-    <mxGraphModel dx="2714" dy="1376" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3052" dy="1548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,7 +118,7 @@
           <mxGeometry x="2693" y="133" width="403" height="385" as="geometry" />
         </mxCell>
         <mxCell id="eBVGcDGNzZ_kb4d6Ry0c-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-706" y="640.5" width="1414" height="802.5" as="geometry" />
+          <mxGeometry x="-730" y="714" width="1414" height="802.5" as="geometry" />
         </mxCell>
         <mxCell id="eBVGcDGNzZ_kb4d6Ry0c-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="757" y="5.5" width="1132" height="623" as="geometry" />
@@ -311,7 +311,7 @@
         <mxCell id="eBVGcDGNzZ_kb4d6Ry0c-57" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;endFill=1;" parent="1" source="eBVGcDGNzZ_kb4d6Ry0c-58" target="eBVGcDGNzZ_kb4d6Ry0c-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eBVGcDGNzZ_kb4d6Ry0c-58" value="no buffer&lt;br&gt;buffer&amp;nbsp; にメモリに空きがない状態&lt;br&gt;dropが起きるというわけではない&lt;br&gt;&lt;br&gt;overrun no bufferがカウントされる場合&lt;br&gt;メモリを確保できていない状態" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="eBVGcDGNzZ_kb4d6Ry0c-58" value="no buffer&lt;br&gt;buffer&amp;nbsp; にメモリに空きがない状態&lt;br&gt;dropが起きるというわけではない&lt;br&gt;&lt;br&gt;overrun&amp;nbsp;&lt;div&gt;no bufferがカウントされる場合&lt;br&gt;メモリを確保できていない状態&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="224" y="1134" width="326" height="150" as="geometry" />
         </mxCell>
         <mxCell id="eBVGcDGNzZ_kb4d6Ry0c-59" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;width=12.5;endSize=8.883333333333335;" parent="1" target="eBVGcDGNzZ_kb4d6Ry0c-40" edge="1">
@@ -321,7 +321,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eBVGcDGNzZ_kb4d6Ry0c-60" value="packet" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="332" y="711" width="42" height="26" as="geometry" />
+          <mxGeometry x="331" y="739" width="42" height="23" as="geometry" />
         </mxCell>
         <mxCell id="eBVGcDGNzZ_kb4d6Ry0c-61" value="packet" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="333" y="800" width="42" height="26" as="geometry" />
@@ -407,6 +407,11 @@
         <mxCell id="SeJQbtY-e4B2oIW_ACEV-5" value="secoundのログを投入" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-24.5" y="2216" width="203.5" height="72" as="geometry" />
         </mxCell>
+        <UserObject label="https://www.cisco.com/c/en/us/support/docs/security/asa-5500-x-series-next-generation-firewalls/115985-asa-overrun-product-tech-note-00.html" link="https://www.cisco.com/c/en/us/support/docs/security/asa-5500-x-series-next-generation-firewalls/115985-asa-overrun-product-tech-note-00.html" id="7cUy_lQKAG9YHxRxlcHj-1">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="-56.99551470588244" y="1346.004963235294" width="550" height="51" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
