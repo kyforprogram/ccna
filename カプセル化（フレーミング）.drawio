@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T07:49:04.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3C4nu-BAYgvnJpWWouJq" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T07:57:21.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="tdn1HfvzV3ewPbNzxLs_" version="24.4.0" type="github">
   <diagram name="ページ1" id="XLSD_A1IlEpXkG6lMPJ8">
     <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-8" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="598" y="525" width="92" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-9" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-9" value="IPヘッダ&lt;br&gt;パケット&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dst：10.0.0.1&lt;/span&gt;&lt;div&gt;src：10.0.0.2&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="506" y="525" width="92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-10" value="FCS" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -52,7 +52,7 @@
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-18" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="17" y="535" width="101" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-19" value="MAC&lt;br&gt;フレーム" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-19" value="MAC&lt;br&gt;フレーム&lt;div&gt;dst：00:00:01&lt;/div&gt;&lt;div&gt;src：00:00:02&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="525" width="92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-23" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-24" value="物理層" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="121.5" y="658" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-26" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-26" value="MAC&lt;br&gt;フレーム&lt;div&gt;dst：00:00:01&lt;/div&gt;&lt;div&gt;src：00:00:02&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414.5" y="658" width="92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-27" value="データ" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -70,7 +70,7 @@
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-28" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="598.5" y="658" width="92" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-29" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-29" value="IPヘッダ&lt;br&gt;パケット&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dst：10.0.0.1&lt;/span&gt;&lt;div&gt;src：10.0.0.2&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="506.5" y="658" width="92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-30" value="プリアンブル" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
