@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T07:36:17.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6FdM65jwblGw06A20zLA" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T07:49:04.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3C4nu-BAYgvnJpWWouJq" version="24.4.0" type="github">
   <diagram name="ページ1" id="XLSD_A1IlEpXkG6lMPJ8">
     <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-5" value="データ" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="691" y="404" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-6" value="IPヘッダ&lt;br&gt;パケット" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="hLAmCvZ6dHxx3_NF8wXx-6" value="IPヘッダ&lt;br&gt;パケット&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dst：10.0.0.1&lt;/span&gt;&lt;div&gt;src：10.0.0.2&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="507" y="404" width="92" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLAmCvZ6dHxx3_NF8wXx-7" value="データ" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
