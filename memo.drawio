@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T23:01:37.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Es14QS2WBeANCHuh2qtQ" version="24.4.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-05-17T23:03:05.478Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GyThSPEOrf7EduptQbU1" version="24.4.0" type="github" pages="7">
   <diagram id="W4a5zuRhi42aG-U77kNk" name="esxi on workstation">
     <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -892,19 +892,19 @@
           <mxGeometry x="2572.75" y="704" width="171" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UE5pYjmkQsVsm4NX8vKH-41" value="バックプレーン" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="3191.5" y="384.75" width="128.5" height="150" as="geometry" />
+          <mxGeometry x="3188" y="432" width="128.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="UE5pYjmkQsVsm4NX8vKH-42" value="バックプレーン" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="3335.5" y="384.75" width="128.5" height="150" as="geometry" />
+          <mxGeometry x="3332" y="432" width="128.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="UE5pYjmkQsVsm4NX8vKH-43" value="バックプレーン" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="3048" y="384.75" width="128.5" height="150" as="geometry" />
+          <mxGeometry x="3049" y="421.75" width="128.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="UE5pYjmkQsVsm4NX8vKH-44" value="コントロールプレーン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3033.5" y="337" width="440" height="86" as="geometry" />
+          <mxGeometry x="3033.5" y="337" width="440" height="125" as="geometry" />
         </mxCell>
         <mxCell id="UE5pYjmkQsVsm4NX8vKH-45" value="&lt;div&gt;Asics/FPGA&lt;/div&gt;データプレーン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3033.5" y="497" width="440" height="292" as="geometry" />
+          <mxGeometry x="3033.5" y="538" width="440" height="251" as="geometry" />
         </mxCell>
         <mxCell id="UE5pYjmkQsVsm4NX8vKH-46" value="IF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3064.5" y="789" width="91" height="60" as="geometry" />
@@ -925,7 +925,7 @@
           <mxGeometry x="2137" y="346" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UE5pYjmkQsVsm4NX8vKH-52" value="QoS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3348" y="712" width="120" height="60" as="geometry" />
+          <mxGeometry x="3352" y="708" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
