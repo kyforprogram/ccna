@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T12:17:57.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ZSIQFubHZ0RgiHXbs6ZM" version="24.5.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-14T15:06:28.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="m3Sf1zwOJxSX8iAAM3lU" version="24.5.2" type="github" pages="7">
   <diagram id="W4a5zuRhi42aG-U77kNk" name="esxi on workstation">
     <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -728,7 +728,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2KOBNthHjj5EjmuvwUHU" name="ページ7">
-    <mxGraphModel dx="11490" dy="3627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7318" dy="1478" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1523,6 +1523,9 @@
         </mxCell>
         <mxCell id="kRWw2HkIIcw9OUHzcDob-146" value="&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config)#interface range fa 0/3 - 4&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#swit&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport mode&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport mode acc&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport mode access &lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#swit&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport ac&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport access vlan 20&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan20, changed state to up&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=23;fontColor=default;fontStyle=1;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-5803" y="2036" width="1145" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="01mi1wYsDNk0Iow_wbY_-2" value="C:\WINDOWS\system32&gt;netsh advfirewall firewall add rule name=&quot;Allow ICMPv4-In&quot; protocol=icmpv4:8,any dir=in action=allow&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall add rule name=&quot;Allow ICMPv4-Out&quot; protocol=icmpv4:8,any dir=out action=allow&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall delete rule name=&quot;Allow ICMPv4-In&quot;&#xa;&#xa;&#xa;1 規則を削除しました。&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall delete rule name=&quot;Allow ICMPv4-Out&quot;&#xa;&#xa;&#xa;1 規則を削除しました。&#xa;OK" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-4706" y="2859" width="1647.33" height="425" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
