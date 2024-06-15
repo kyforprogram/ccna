@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T15:07:01.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="VA7TkRDHFjCaMOO4aaXJ" version="24.5.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-15T03:00:17.807Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kNoKJ85r8zIl6HvBI2Xm" version="24.5.4" type="github" pages="7">
   <diagram id="W4a5zuRhi42aG-U77kNk" name="esxi on workstation">
     <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -728,7 +728,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2KOBNthHjj5EjmuvwUHU" name="ページ7">
-    <mxGraphModel dx="8745" dy="2213" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8880" dy="3227" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1524,14 +1524,73 @@
         <mxCell id="kRWw2HkIIcw9OUHzcDob-146" value="&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config)#interface range fa 0/3 - 4&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#swit&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport mode&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport mode acc&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport mode access &lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#swit&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport ac&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#switchport access vlan 20&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Switch(config-if-range)#&lt;/p&gt;&#xa;&lt;p style=&quot;margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan20, changed state to up&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=23;fontColor=default;fontStyle=1;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-5803" y="2036" width="1145" height="684" as="geometry" />
         </mxCell>
-        <mxCell id="01mi1wYsDNk0Iow_wbY_-2" value="C:\WINDOWS\system32&gt;netsh advfirewall firewall add rule name=&quot;Allow ICMPv4-In&quot; protocol=icmpv4:8,any dir=in action=allow&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall add rule name=&quot;Allow ICMPv4-Out&quot; protocol=icmpv4:8,any dir=out action=allow&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall delete rule name=&quot;Allow ICMPv4-In&quot;&#xa;&#xa;&#xa;1 規則を削除しました。&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall delete rule name=&quot;Allow ICMPv4-Out&quot;&#xa;&#xa;&#xa;1 規則を削除しました。&#xa;OK" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="01mi1wYsDNk0Iow_wbY_-2" value="C:\WINDOWS\system32&gt;netsh advfirewall firewall add rule name=&quot;Allow ICMPv4-In&quot; protocol=icmpv4:8,any dir=in action=allow&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall add rule name=&quot;Allow ICMPv4-Out&quot; protocol=icmpv4:8,any dir=out action=allow&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall delete rule name=&quot;Allow ICMPv4-In&quot;&#xa;&#xa;&#xa;1 規則を削除しました。&#xa;OK&#xa;&#xa;&#xa;&#xa;&#xa;C:\WINDOWS\system32&gt;netsh advfirewall firewall delete rule name=&quot;Allow ICMPv4-Out&quot;&#xa;&#xa;&#xa;1 規則を削除しました。&#xa;OK" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-4706" y="2859" width="1647.33" height="425" as="geometry" />
         </mxCell>
         <UserObject label="https://atmarkit.itmedia.co.jp/ait/articles/1712/21/news018.html" link="https://atmarkit.itmedia.co.jp/ait/articles/1712/21/news018.html" id="01mi1wYsDNk0Iow_wbY_-3">
-          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
             <mxGeometry x="-4701.003743693033" y="3261.996475830078" width="359" height="36" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-1" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=23;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2103" y="-894" width="799" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-2" value="F4" style="whiteSpace=wrap;html=1;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1616" y="-743.5" width="34" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-3" value="" style="whiteSpace=wrap;html=1;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1936" y="-743.5" width="34" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-4" value="F1" style="whiteSpace=wrap;html=1;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1991" y="-743.5" width="34" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-5" style="edgeStyle=none;rounded=0;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=23;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;fontStyle=1" edge="1" parent="1" source="fi2na3KFnPfEL-ufuxks-6" target="fi2na3KFnPfEL-ufuxks-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-6" value="192.168.1.1&lt;div&gt;255.255.255.0&lt;/div&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=23;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2234" y="-578" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-11" value="SWITCH&lt;div&gt;VLAN1&lt;/div&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=23;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1197" y="-880" width="799" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-12" value="F3" style="whiteSpace=wrap;html=1;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-944" y="-717.5" width="34" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-13" value="" style="whiteSpace=wrap;html=1;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-999" y="-717.5" width="34" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-14" value="F4" style="whiteSpace=wrap;html=1;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1162" y="-730" width="34" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-19" style="edgeStyle=none;rounded=0;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=23;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;fontStyle=1" edge="1" parent="1" target="fi2na3KFnPfEL-ufuxks-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-903" y="-510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-21" value="192.168.1.3&lt;div&gt;255.255.255.0&lt;/div&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=23;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-902" y="-476" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-22" style="edgeStyle=none;rounded=0;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=23;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;fontStyle=1" edge="1" parent="1" source="fi2na3KFnPfEL-ufuxks-2" target="fi2na3KFnPfEL-ufuxks-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-552" y="-495" as="sourcePoint" />
+            <mxPoint x="-576" y="-675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-26" value="192.168.1.5&lt;div&gt;255.255.255.0&lt;/div&gt;" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=23;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2008" y="-559" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-27" style="edgeStyle=none;rounded=0;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=23;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;fontStyle=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fi2na3KFnPfEL-ufuxks-26" target="fi2na3KFnPfEL-ufuxks-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2185" y="-568" as="sourcePoint" />
+            <mxPoint x="-1981" y="-708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-30" value="&lt;span style=&quot;text-wrap: nowrap; font-size: 23px; font-weight: 700; text-align: center;&quot;&gt;192.168.10.1&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 23px; font-weight: 700; text-align: center; text-wrap: nowrap; background-color: initial;&quot;&gt;255.255.255.0&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 23px; font-weight: 700; text-align: center; text-wrap: nowrap;&quot;&gt;192.168.10.1/24&lt;/span&gt;&lt;span style=&quot;font-size: 23px; font-weight: 700; text-align: center; text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1826" y="-673" width="313" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="fi2na3KFnPfEL-ufuxks-32" value="&lt;span style=&quot;text-wrap: nowrap; font-size: 23px; font-weight: 700; text-align: center;&quot;&gt;192.168.10.2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 23px; font-weight: 700; text-align: center; text-wrap: nowrap; background-color: initial;&quot;&gt;255.255.255.0&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 23px; font-weight: 700; text-align: center; text-wrap: nowrap; background-color: initial;&quot;&gt;192.168.10.2/24&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1288" y="-663" width="330.5" height="77" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
