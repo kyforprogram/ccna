@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="7">
   <diagram id="W4a5zuRhi42aG-U77kNk" name="esxi on workstation">
     <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -416,45 +416,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o_0EIs07IhVlydvkjaAZ" name="anyconnect">
-    <mxGraphModel dx="2234" dy="-454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1995" dy="-585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VUeE77Lornvn1ARVl8sb-1" value="メーカナレッジ回答&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;新規バグは調査されない" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-440" y="2260" width="284" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-3" value="ASA5555&lt;br style=&quot;font-size: 19px;&quot;&gt;ver:9.12&lt;br style=&quot;font-size: 19px;&quot;&gt;" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=19;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-145" y="1528.75" width="78" height="53" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" parent="1" source="VUeE77Lornvn1ARVl8sb-5" target="VUeE77Lornvn1ARVl8sb-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-5" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="-778" y="1515.25" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="-449.75" y="1278" width="60" height="554.5" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-7" value="SSL VPN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="-470.75" y="1544.25" width="98" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-8" value="ASA5555&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51); font-size: 19px;&quot;&gt;ver:9.16&lt;/span&gt;" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=19;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-131" y="1860.75" width="78" height="53" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" parent="1" source="VUeE77Lornvn1ARVl8sb-10" target="VUeE77Lornvn1ARVl8sb-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-10" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="-764" y="1847.25" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="-435.75" y="1610" width="60" height="554.5" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-12" value="SSL VPN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="-456.75" y="1876.25" width="98" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="VUeE77Lornvn1ARVl8sb-13" value="https://docs.paloaltonetworks.com/globalprotect/9-1/globalprotect-admin/globalprotect-clientless-vpn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-423" y="2026" width="549" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VUeE77Lornvn1ARVl8sb-14" value="ASA5555&lt;br style=&quot;font-size: 19px;&quot;&gt;ver:9.12&lt;br style=&quot;font-size: 19px;&quot;&gt;" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=19;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1276" y="1457.75" width="78" height="53" as="geometry" />
@@ -608,6 +575,57 @@
         </mxCell>
         <mxCell id="TI3j2K-scq4ASQLsuvKx-2" value="メーカナレッジ回答&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;新規バグは調査されない" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-328" y="2478" width="178" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--1" value="ASA5555&lt;br style=&quot;font-size: 19px;&quot;&gt;ver:9.12&lt;br style=&quot;font-size: 19px;&quot;&gt;" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=19;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-149" y="1318.75" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="1" source="vXY_ydfUHSXl32Eh521--3" target="vXY_ydfUHSXl32Eh521--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--3" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-782" y="1305.25" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--12" value="control-plane" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76" y="1829" width="87" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--19" value="ASA" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;fontSize=19;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-54" y="1721" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="1" source="vXY_ydfUHSXl32Eh521--21" target="vXY_ydfUHSXl32Eh521--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--35" value="ssh&amp;nbsp;&lt;div&gt;telnet&amp;nbsp;&lt;/div&gt;&lt;div&gt;asdm&lt;/div&gt;&lt;div&gt;vpn 443&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vXY_ydfUHSXl32Eh521--20">
+          <mxGeometry x="-0.325" y="1" relative="1" as="geometry">
+            <mxPoint x="416" y="-70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--21" value="10.x.x.x" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1643" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--24" value="outside&lt;div&gt;10.0.0.254&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-149.00334514361262" y="1740.5033333333336" as="geometry">
+            <mxPoint x="8" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--27" value="permit ip 10.0.0.0/8&lt;div&gt;permit ip 192.168.1.1/16&lt;/div&gt;&lt;div&gt;deny ip any any&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-82" y="1800" width="147" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--31" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-295.75" y="1840.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vXY_ydfUHSXl32Eh521--37" target="vXY_ydfUHSXl32Eh521--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--37" value="192.168.x.x" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="1757" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--39" value="172.16.1.1" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-761" y="1922" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vXY_ydfUHSXl32Eh521--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vXY_ydfUHSXl32Eh521--39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-344" y="1824" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
