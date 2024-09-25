@@ -1726,7 +1726,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wBZmgk0QsbtcEsWP5nnC-21" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="270" y="420" width="78" height="50" as="geometry" />
+          <mxGeometry x="269" y="423" width="78" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wBZmgk0QsbtcEsWP5nnC-11" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endArrow=classic;" edge="1" parent="1" source="wBZmgk0QsbtcEsWP5nnC-8">
           <mxGeometry relative="1" as="geometry">
