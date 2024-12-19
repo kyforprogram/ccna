@@ -1778,7 +1778,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="11vfwKKf5IoSL-C1H8WS" name="BIGIP">
-    <mxGraphModel dx="1424" dy="877" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1912,6 +1912,9 @@
         </mxCell>
         <mxCell id="4WiRll6rrT-ureeKbL3F-4" value="10.0.2.0/24" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="645.5" y="617" width="108" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4WiRll6rrT-ureeKbL3F-7" value="HUB" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="412" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
