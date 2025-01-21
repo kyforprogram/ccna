@@ -1778,7 +1778,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="11vfwKKf5IoSL-C1H8WS" name="BIGIP">
-    <mxGraphModel dx="2493" dy="1775" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="1775" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2903,6 +2903,9 @@
         </mxCell>
         <mxCell id="W2obiLeOIm-zRmlE-N4p-75" value="vpc 20" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="W2obiLeOIm-zRmlE-N4p-73">
           <mxGeometry x="115.00000000000001" y="1.8131487889273357" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="W2obiLeOIm-zRmlE-N4p-76" value="Virtual Server&lt;div&gt;name : vs&lt;/div&gt;&lt;div&gt;dst ip :192.168.100.251&amp;nbsp;&lt;/div&gt;&lt;div&gt;pool : pool01&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2319" y="2633" width="171" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
